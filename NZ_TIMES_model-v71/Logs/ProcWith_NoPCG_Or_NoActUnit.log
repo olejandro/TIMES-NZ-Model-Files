@@ -1,0 +1,14 @@
+Process with no PCG/ActUnit:
+Scenario ; Region ; Process ; PrimaryCG ; Activity Unit 
+
+NewTech_AGR_TUI ; SI ; ADCF-WH-HP-ELC ;  ; PJ
+NewTech_AGR_TUI ; SI ; AFISH-BOAT--ELC ;  ; PJ
+NewTech_AGR_TUI ; SI ; AFISH-BOAT--H2R ;  ; PJ
+NewTech_AGR_TUI ; SI ; AINDC-SH-Dehumid-ELC ;  ; PJ
+NewTech_AGR_TUI ; SI ; AINDC-SH-ThScrn-ELC ;  ; PJ
+NewTech_AGR_TUI ; NI ; ADCF-WH-HP-ELC ;  ; PJ
+NewTech_AGR_TUI ; NI ; AFISH-BOAT--ELC ;  ; PJ
+NewTech_AGR_TUI ; NI ; AFISH-BOAT--H2R ;  ; PJ
+NewTech_AGR_TUI ; NI ; AINDC-SH-Dehumid-ELC ;  ; PJ
+NewTech_AGR_TUI ; NI ; AINDC-SH-ThScrn-ELC ;  ; PJ
+
