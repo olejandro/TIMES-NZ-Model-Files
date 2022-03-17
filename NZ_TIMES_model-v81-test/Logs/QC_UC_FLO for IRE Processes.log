@@ -1,0 +1,7 @@
+The following declarations will be ingored by TIMES (need UC_IRE):
+------------------------------------------------
+Scenairo-Region-UC_N-Process-Commodity
+
+WEM_SI ; SI ; WEM_SI-Fall ; TB_ELC_NI_SI_01 ; ELCTR
+WEM_SI ; SI ; WEM_SI-Winter ; TB_ELC_NI_SI_01 ; ELCTR
+
