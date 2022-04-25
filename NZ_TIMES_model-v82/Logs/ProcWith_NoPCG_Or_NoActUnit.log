@@ -1,0 +1,6 @@
+Process with no PCG/ActUnit:
+Scenario ; Region ; Process ; PrimaryCG ; Activity Unit 
+
+NewTech_RC ; NI ; R_DDW-SC_HP-ELC ;  ; PJ
+NewTech_RC ; SI ; R_DDW-SC_HP-ELC ;  ; PJ
+
