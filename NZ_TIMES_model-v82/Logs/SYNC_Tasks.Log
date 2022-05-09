@@ -59934,3 +59934,1799 @@ Exp. Time	Act. Time	Task (10)
 
 
 
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 11:54:32 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:37		B-Y: NI_ELC
+00:00:26		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:29		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 11:57:15 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:28
+
+Exp. Time	Act. Time	Task (6)
+00:00:37	00:00:56	B-Y: NI_ELC
+00:00:26	00:00:30	B-Y Transformation...
+00:00:05	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:29	00:00:38	Updating SysSettings...
+00:00:20	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 1:03:31 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:56		B-Y: NI_ELC
+00:00:30		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:38		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 1:06:17 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:34
+
+Exp. Time	Act. Time	Task (6)
+00:00:56	00:00:55	B-Y: NI_ELC
+00:00:30	00:00:30	B-Y Transformation...
+00:00:06	00:00:08	Transfer Data: [B-Y]
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:38	00:00:42	Updating SysSettings...
+00:00:18	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 3:57:44 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:01:13		SR: NewTechs_Industry
+00:00:14		SR Transformation: NewTechs_Industry
+00:00:08		Transfer Data: [SR]
+00:00:01		VEDA To TIMES I...
+00:00:42		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 2/05/2022 4:00:27 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:37
+
+Exp. Time	Act. Time	Task (6)
+00:01:13	00:01:19	SR: NewTechs_Industry
+00:00:14	00:00:21	SR Transformation: NewTechs_Industry
+00:00:08	00:00:05	Transfer Data: [SR]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:42	00:00:37	Updating SysSettings...
+00:00:18	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:28:27 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (8)
+00:00:55		B-Y: NI_ELC
+00:00:30		B-Y Transformation...
+00:01:19		SR: NewTechs_Industry
+00:00:21		SR Transformation: NewTechs_Industry
+00:00:05		Transfer Data: [B-Y] + [SR]
+00:00:00		VEDA To TIMES I...
+00:00:37		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:32:13 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:31
+
+Exp. Time	Act. Time	Task (8)
+00:00:55	00:00:43	B-Y: NI_ELC
+00:00:30	00:00:25	B-Y Transformation...
+00:01:19	00:01:15	SR: NewTechs_Industry
+00:00:21	00:00:16	SR Transformation: NewTechs_Industry
+00:00:05	00:00:06	Transfer Data: [B-Y] + [SR]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:37	00:00:32	Updating SysSettings...
+00:00:15	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:39:17 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:43		B-Y: NI_ELC
+00:00:25		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:41:21 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:54
+
+Exp. Time	Act. Time	Task (6)
+00:00:43	00:00:38	B-Y: NI_ELC
+00:00:25	00:00:24	B-Y Transformation...
+00:00:06	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:32	Updating SysSettings...
+00:00:14	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:55:13 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:38		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 9:57:18 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:54
+
+Exp. Time	Act. Time	Task (6)
+00:00:38	00:00:38	B-Y: NI_ELC
+00:00:24	00:00:23	B-Y Transformation...
+00:00:06	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:32	00:00:31	Updating SysSettings...
+00:00:14	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:08:37 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (8)
+00:00:44		SR: NewTech_ELC_KEA
+00:00:16		SR Transformation: NewTech_ELC_KEA
+00:00:44		SR: NewTech_ELC_TUI
+00:00:24		SR Transformation: NewTech_ELC_TUI
+00:00:06		Transfer Data: [SR]
+00:00:01		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:11:39 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:57
+
+Exp. Time	Act. Time	Task (8)
+00:00:44	00:00:41	SR: NewTech_ELC_KEA
+00:00:16	00:00:16	SR Transformation: NewTech_ELC_KEA
+00:00:44	00:00:42	SR: NewTech_ELC_TUI
+00:00:24	00:00:23	SR Transformation: NewTech_ELC_TUI
+00:00:06	00:00:06	Transfer Data: [SR]
+00:00:01	00:00:01	VEDA To TIMES I...
+00:00:31	00:00:33	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:23:17 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:01:10		Reg_Scen: Base_constraints
+00:00:01		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:25:42 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:19
+
+Exp. Time	Act. Time	Task (4)
+00:01:10	00:01:10	Reg_Scen: Base_constraints
+00:00:01	00:00:01	VEDA To TIMES I...
+00:00:33	00:00:33	Updating SysSettings...
+00:00:15	00:00:35	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:38:53 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:37		Reg_Scen: LoadCurve_COM-FR
+00:00:01		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:35		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:41:59 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:37	00:02:14	Reg_Scen: LoadCurve_COM-FR
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:32	Updating SysSettings...
+00:00:35	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:53:52 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (7)
+00:00:50		B-Y: NI_OTH
+00:00:46		B-Y: SI_OTH
+00:00:23		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 10:56:41 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:37
+
+Exp. Time	Act. Time	Task (7)
+00:00:50	00:00:39	B-Y: NI_OTH
+00:00:46	00:00:41	B-Y: SI_OTH
+00:00:23	00:00:23	B-Y Transformation...
+00:00:06	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:33	Updating SysSettings...
+00:00:14	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:24:45 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (14)
+00:00:38		B-Y: NI_ELC
+00:00:39		B-Y: NI_OTH
+00:00:41		B-Y: SI_OTH
+00:00:23		B-Y Transformation...
+00:00:41		SR: NewTech_ELC_KEA
+00:00:16		SR Transformation: NewTech_ELC_KEA
+00:00:42		SR: NewTech_ELC_TUI
+00:00:23		SR Transformation: NewTech_ELC_TUI
+00:00:06		Transfer Data: [B-Y] + [SR]
+00:01:10		Reg_Scen: Base_constraints
+00:02:14		Reg_Scen: LoadCurve_COM-FR
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:34:10 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:09:06
+
+Exp. Time	Act. Time	Task (14)
+00:00:38	00:00:39	B-Y: NI_ELC
+00:00:39	00:00:38	B-Y: NI_OTH
+00:00:41	00:00:43	B-Y: SI_OTH
+00:00:23	00:00:26	B-Y Transformation...
+00:00:41	00:00:40	SR: NewTech_ELC_KEA
+00:00:16	00:00:15	SR Transformation: NewTech_ELC_KEA
+00:00:42	00:00:42	SR: NewTech_ELC_TUI
+00:00:23	00:00:23	SR Transformation: NewTech_ELC_TUI
+00:00:06	00:00:05	Transfer Data: [B-Y] + [SR]
+00:01:10	00:01:07	Reg_Scen: Base_constraints
+00:02:14	00:02:22	Reg_Scen: LoadCurve_COM-FR
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:32	Updating SysSettings...
+00:00:15	00:00:34	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:41:41 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:39		B-Y: NI_ELC
+00:00:26		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:34		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:43:47 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:56
+
+Exp. Time	Act. Time	Task (6)
+00:00:39	00:00:39	B-Y: NI_ELC
+00:00:26	00:00:24	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:33	Updating SysSettings...
+00:00:34	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:44:49 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:39		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 11:47:00 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:59
+
+Exp. Time	Act. Time	Task (6)
+00:00:39	00:00:42	B-Y: NI_ELC
+00:00:24	00:00:24	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:34	Updating SysSettings...
+00:00:15	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:02:28 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:42		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:34		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:04:36 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:58
+
+Exp. Time	Act. Time	Task (6)
+00:00:42	00:00:40	B-Y: NI_ELC
+00:00:24	00:00:23	B-Y Transformation...
+00:00:05	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:34	00:00:33	Updating SysSettings...
+00:00:14	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:11:53 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:40		B-Y: NI_ELC
+00:00:23		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:01		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:14:01 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:57
+
+Exp. Time	Act. Time	Task (6)
+00:00:40	00:00:39	B-Y: NI_ELC
+00:00:23	00:00:26	B-Y Transformation...
+00:00:06	00:00:05	Transfer Data: [B-Y]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:32	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:21:46 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (3)
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:23:17 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:45
+
+Exp. Time	Act. Time	Task (3)
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:31	Updating SysSettings...
+00:00:15	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:27:11 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (3)
+00:00:00		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:28:44 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:48
+
+Exp. Time	Act. Time	Task (3)
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:31	00:00:33	Updating SysSettings...
+00:00:14	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:39:29 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:39		B-Y: NI_ELC
+00:00:26		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:42:17 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:02
+
+Exp. Time	Act. Time	Task (6)
+00:00:39	00:00:43	B-Y: NI_ELC
+00:00:26	00:00:24	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:35	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:49:18 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:43		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:35		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 12:51:24 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:56
+
+Exp. Time	Act. Time	Task (6)
+00:00:43	00:00:40	B-Y: NI_ELC
+00:00:24	00:00:23	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:35	00:00:32	Updating SysSettings...
+00:00:15	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 1:05:51 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:40		B-Y: NI_ELC
+00:00:23		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 3/05/2022 1:08:25 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:22
+
+Exp. Time	Act. Time	Task (6)
+00:00:40	00:00:50	B-Y: NI_ELC
+00:00:23	00:00:29	B-Y Transformation...
+00:00:05	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:39	Updating SysSettings...
+00:00:16	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 9:42:54 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:50		B-Y: NI_ELC
+00:00:29		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:39		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 9:45:11 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:06
+
+Exp. Time	Act. Time	Task (6)
+00:00:50	00:00:42	B-Y: NI_ELC
+00:00:29	00:00:24	B-Y Transformation...
+00:00:06	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:39	00:00:35	Updating SysSettings...
+00:00:18	00:00:20	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:08:00 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:42		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:35		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:10:13 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:02
+
+Exp. Time	Act. Time	Task (6)
+00:00:42	00:00:43	B-Y: NI_ELC
+00:00:24	00:00:25	B-Y Transformation...
+00:00:05	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:35	00:00:33	Updating SysSettings...
+00:00:20	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:30:03 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:43		B-Y: NI_ELC
+00:00:25		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:32:11 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:58
+
+Exp. Time	Act. Time	Task (6)
+00:00:43	00:00:42	B-Y: NI_ELC
+00:00:25	00:00:24	B-Y Transformation...
+00:00:06	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:31	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:47:39 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:42		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 3:49:47 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:57
+
+Exp. Time	Act. Time	Task (6)
+00:00:42	00:00:40	B-Y: NI_ELC
+00:00:24	00:00:24	B-Y Transformation...
+00:00:06	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:31	00:00:33	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 4:09:13 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:40		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 4:11:38 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:14
+
+Exp. Time	Act. Time	Task (6)
+00:00:40	00:00:51	B-Y: NI_ELC
+00:00:24	00:00:27	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:35	Updating SysSettings...
+00:00:15	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 4:23:44 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:51		B-Y: NI_ELC
+00:00:27		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:35		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 4/05/2022 4:25:53 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:58
+
+Exp. Time	Act. Time	Task (6)
+00:00:51	00:00:42	B-Y: NI_ELC
+00:00:27	00:00:25	B-Y Transformation...
+00:00:05	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:35	00:00:32	Updating SysSettings...
+00:00:16	00:00:14	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:05:06 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:42		B-Y: NI_ELC
+00:00:25		B-Y Transformation...
+00:00:05		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:14		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:07:22 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:06
+
+Exp. Time	Act. Time	Task (6)
+00:00:42	00:00:46	B-Y: NI_ELC
+00:00:25	00:00:26	B-Y Transformation...
+00:00:05	00:00:06	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:32	Updating SysSettings...
+00:00:14	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:20:49 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:46		B-Y: NI_ELC
+00:00:26		B-Y Transformation...
+00:00:06		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:23:13 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:10
+
+Exp. Time	Act. Time	Task (6)
+00:00:46	00:00:40	B-Y: NI_ELC
+00:00:26	00:00:28	B-Y Transformation...
+00:00:06	00:00:08	Transfer Data: [B-Y]
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:32	00:00:37	Updating SysSettings...
+00:00:16	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:31:09 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:40		B-Y: NI_ELC
+00:00:28		B-Y Transformation...
+00:00:08		Transfer Data: [B-Y]
+00:00:01		VEDA To TIMES I...
+00:00:37		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:33:18 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:59
+
+Exp. Time	Act. Time	Task (6)
+00:00:40	00:00:39	B-Y: NI_ELC
+00:00:28	00:00:24	B-Y Transformation...
+00:00:08	00:00:07	Transfer Data: [B-Y]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:37	00:00:34	Updating SysSettings...
+00:00:16	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:43:04 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:39		B-Y: NI_ELC
+00:00:24		B-Y Transformation...
+00:00:07		Transfer Data: [B-Y]
+00:00:00		VEDA To TIMES I...
+00:00:34		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 9:45:28 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:12
+
+Exp. Time	Act. Time	Task (6)
+00:00:39	00:00:50	B-Y: NI_ELC
+00:00:24	00:00:25	B-Y Transformation...
+00:00:07	00:00:05	Transfer Data: [B-Y]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:34	00:00:36	Updating SysSettings...
+00:00:15	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 10:23:16 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:31		Reg_Scen: Cohesive
+00:00:00		VEDA To TIMES I...
+00:00:36		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 10:29:08 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:05:43
+
+Exp. Time	Act. Time	Task (4)
+00:02:31	00:04:27	Reg_Scen: Cohesive
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:36	00:00:47	Updating SysSettings...
+00:00:16	00:00:29	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 10:44:48 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:21		Reg_Scen: Individualistic
+00:00:00		VEDA To TIMES I...
+00:00:47		Updating SysSettings...
+00:00:29		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 10:51:23 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:06:28
+
+Exp. Time	Act. Time	Task (4)
+00:02:21	00:05:03	Reg_Scen: Individualistic
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:47	00:00:50	Updating SysSettings...
+00:00:29	00:00:34	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 11:31:56 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:05:03		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:50		Updating SysSettings...
+00:00:34		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 11:35:42 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:40
+
+Exp. Time	Act. Time	Task (4)
+00:05:03	00:02:45	Reg_Scen: Individualistic
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:50	00:00:35	Updating SysSettings...
+00:00:34	00:00:20	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 12:38:07 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:04:27		Reg_Scen: Cohesive
+00:00:00		VEDA To TIMES I...
+00:00:35		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 12:41:35 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:23
+
+Exp. Time	Act. Time	Task (4)
+00:04:27	00:02:33	Reg_Scen: Cohesive
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:35	00:00:31	Updating SysSettings...
+00:00:20	00:00:19	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 12:44:56 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:45		Reg_Scen: Individualistic
+00:00:00		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:19		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 12:48:29 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:27
+
+Exp. Time	Act. Time	Task (4)
+00:02:45	00:02:32	Reg_Scen: Individualistic
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:31	00:00:33	Updating SysSettings...
+00:00:19	00:00:21	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:06:06 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:32		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:21		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:09:55 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:43
+
+Exp. Time	Act. Time	Task (4)
+00:02:32	00:02:50	Reg_Scen: Individualistic
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:32	Updating SysSettings...
+00:00:21	00:00:21	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:29:12 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (7)
+00:00:32		SR: NewTransport-TUI
+00:00:15		SR Transformation: NewTransport-TUI
+00:00:05		Transfer Data: [SR]
+00:02:50		Reg_Scen: Individualistic
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:21		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:33:36 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:04:16
+
+Exp. Time	Act. Time	Task (7)
+00:00:32	00:00:33	SR: NewTransport-TUI
+00:00:15	00:00:15	SR Transformation: NewTransport-TUI
+00:00:05	00:00:05	Transfer Data: [SR]
+00:02:50	00:02:31	Reg_Scen: Individualistic
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:32	00:00:31	Updating SysSettings...
+00:00:21	00:00:20	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:44:43 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:31		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 1:48:15 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:27
+
+Exp. Time	Act. Time	Task (4)
+00:02:31	00:02:36	Reg_Scen: Individualistic
+00:00:01	00:00:01	VEDA To TIMES I...
+00:00:31	00:00:30	Updating SysSettings...
+00:00:20	00:00:20	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 2:02:48 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:36		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:30		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 2:06:14 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:21
+
+Exp. Time	Act. Time	Task (4)
+00:02:36	00:02:32	Reg_Scen: Individualistic
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:30	00:00:31	Updating SysSettings...
+00:00:20	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 2:21:32 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (5)
+00:02:33		Reg_Scen: Cohesive
+00:02:32		Reg_Scen: Individualistic
+00:00:00		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 2:27:44 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:06:07
+
+Exp. Time	Act. Time	Task (5)
+00:02:33	00:02:36	Reg_Scen: Cohesive
+00:02:32	00:02:40	Reg_Scen: Individualistic
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:31	00:00:32	Updating SysSettings...
+00:00:18	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:08:57 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:33		SR: NewTransport-TUI
+00:00:15		SR Transformation: NewTransport-TUI
+00:00:05		Transfer Data: [SR]
+00:00:01		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:10:48 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:42
+
+Exp. Time	Act. Time	Task (6)
+00:00:33	00:00:33	SR: NewTransport-TUI
+00:00:15	00:00:15	SR Transformation: NewTransport-TUI
+00:00:05	00:00:05	Transfer Data: [SR]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:33	Updating SysSettings...
+00:00:18	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:23:26 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:36		Reg_Scen: Cohesive
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:26:53 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:21
+
+Exp. Time	Act. Time	Task (4)
+00:02:36	00:02:29	Reg_Scen: Cohesive
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:32	Updating SysSettings...
+00:00:16	00:00:20	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:49:25 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (9)
+00:00:37		B-Y: NI_PRI
+00:00:36		B-Y: SI_PRI
+00:00:25		B-Y Transformation...
+00:00:35		SR: NewTransport-KEA
+00:00:22		SR Transformation: NewTransport-KEA
+00:00:05		Transfer Data: [B-Y] + [SR]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:20		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 5/05/2022 3:53:38 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:04:00
+
+Exp. Time	Act. Time	Task (9)
+00:00:37	00:00:40	B-Y: NI_PRI
+00:00:36	00:00:42	B-Y: SI_PRI
+00:00:25	00:00:23	B-Y Transformation...
+00:00:35	00:00:59	SR: NewTransport-KEA
+00:00:22	00:00:23	SR Transformation: NewTransport-KEA
+00:00:05	00:00:05	Transfer Data: [B-Y] + [SR]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:32	00:00:33	Updating SysSettings...
+00:00:20	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 9:30:55 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (11)
+00:00:40		B-Y: NI_PRI
+00:00:42		B-Y: SI_PRI
+00:00:23		B-Y Transformation...
+00:00:59		SR: NewTransport-KEA
+00:00:23		SR Transformation: NewTransport-KEA
+00:00:33		SR: NewTransport-TUI
+00:00:15		SR Transformation: NewTransport-TUI
+00:00:05		Transfer Data: [B-Y] + [SR]
+00:00:00		VEDA To TIMES I...
+00:00:33		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 9:37:04 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:05:53
+
+Exp. Time	Act. Time	Task (11)
+00:00:40	00:00:39	B-Y: NI_PRI
+00:00:42	00:00:42	B-Y: SI_PRI
+00:00:23	00:00:22	B-Y Transformation...
+00:00:59	00:00:34	SR: NewTransport-KEA
+00:00:23	00:01:52	SR Transformation: NewTransport-KEA
+00:00:33	00:00:33	SR: NewTransport-TUI
+00:00:15	00:00:16	SR Transformation: NewTransport-TUI
+00:00:05	00:00:05	Transfer Data: [B-Y] + [SR]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:33	00:00:35	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 9:55:09 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:33		SR: NewTransport-TUI
+00:00:16		SR Transformation: NewTransport-TUI
+00:00:05		Transfer Data: [SR]
+00:00:00		VEDA To TIMES I...
+00:00:35		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 9:56:56 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:40
+
+Exp. Time	Act. Time	Task (6)
+00:00:33	00:00:33	SR: NewTransport-TUI
+00:00:16	00:00:15	SR Transformation: NewTransport-TUI
+00:00:05	00:00:05	Transfer Data: [SR]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:35	00:00:32	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 10:36:09 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (6)
+00:00:33		SR: NewTransport-TUI
+00:00:15		SR Transformation: NewTransport-TUI
+00:00:05		Transfer Data: [SR]
+00:00:00		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 10:37:55 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:01:39
+
+Exp. Time	Act. Time	Task (6)
+00:00:33	00:00:31	SR: NewTransport-TUI
+00:00:15	00:00:14	SR Transformation: NewTransport-TUI
+00:00:05	00:00:06	Transfer Data: [SR]
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:32	00:00:32	Updating SysSettings...
+00:00:15	00:00:15	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:23:16 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:02:40		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:23:30 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (0)
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:27:47 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (7)
+00:00:31		SR: NewTransport-TUI
+00:00:14		SR Transformation: NewTransport-TUI
+00:00:06		Transfer Data: [SR]
+00:02:40		Reg_Scen: Individualistic
+00:00:01		VEDA To TIMES I...
+00:00:32		Updating SysSettings...
+00:00:15		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:32:59 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:05:04
+
+Exp. Time	Act. Time	Task (7)
+00:00:31	00:00:37	SR: NewTransport-TUI
+00:00:14	00:00:16	SR Transformation: NewTransport-TUI
+00:00:06	00:00:06	Transfer Data: [SR]
+00:02:40	00:03:11	Reg_Scen: Individualistic
+00:00:01	00:00:01	VEDA To TIMES I...
+00:00:32	00:00:31	Updating SysSettings...
+00:00:15	00:00:22	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:47:09 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (8)
+00:00:34		SR: NewTransport-KEA
+00:01:52		SR Transformation: NewTransport-KEA
+00:00:37		SR: NewTransport-TUI
+00:00:16		SR Transformation: NewTransport-TUI
+00:00:06		Transfer Data: [SR]
+00:00:01		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:22		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 11:50:15 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:58
+
+Exp. Time	Act. Time	Task (8)
+00:00:34	00:00:37	SR: NewTransport-KEA
+00:01:52	00:00:24	SR Transformation: NewTransport-KEA
+00:00:37	00:00:33	SR: NewTransport-TUI
+00:00:16	00:00:15	SR Transformation: NewTransport-TUI
+00:00:06	00:00:10	Transfer Data: [SR]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:31	00:00:43	Updating SysSettings...
+00:00:22	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 12:47:25 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (8)
+00:00:40		SR: NewTech_ELC_KEA
+00:00:15		SR Transformation: NewTech_ELC_KEA
+00:00:42		SR: NewTech_ELC_TUI
+00:00:23		SR Transformation: NewTech_ELC_TUI
+00:00:10		Transfer Data: [SR]
+00:00:00		VEDA To TIMES I...
+00:00:43		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 12:50:28 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:02:55
+
+Exp. Time	Act. Time	Task (8)
+00:00:40	00:00:38	SR: NewTech_ELC_KEA
+00:00:15	00:00:17	SR Transformation: NewTech_ELC_KEA
+00:00:42	00:00:42	SR: NewTech_ELC_TUI
+00:00:23	00:00:22	SR Transformation: NewTech_ELC_TUI
+00:00:10	00:00:06	Transfer Data: [SR]
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:43	00:00:34	Updating SysSettings...
+00:00:16	00:00:16	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 1:20:05 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (9)
+00:00:38		SR: NewTech_ELC_KEA
+00:00:17		SR Transformation: NewTech_ELC_KEA
+00:00:42		SR: NewTech_ELC_TUI
+00:00:22		SR Transformation: NewTech_ELC_TUI
+00:00:06		Transfer Data: [SR]
+00:02:29		Reg_Scen: Cohesive
+00:00:00		VEDA To TIMES I...
+00:00:34		Updating SysSettings...
+00:00:16		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 1:25:32 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:05:20
+
+Exp. Time	Act. Time	Task (9)
+00:00:38	00:00:38	SR: NewTech_ELC_KEA
+00:00:17	00:00:16	SR Transformation: NewTech_ELC_KEA
+00:00:42	00:00:40	SR: NewTech_ELC_TUI
+00:00:22	00:00:23	SR Transformation: NewTech_ELC_TUI
+00:00:06	00:00:06	Transfer Data: [SR]
+00:02:29	00:02:27	Reg_Scen: Cohesive
+00:00:00	00:00:00	VEDA To TIMES I...
+00:00:34	00:00:31	Updating SysSettings...
+00:00:16	00:00:19	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 1:58:59 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (4)
+00:03:11		Reg_Scen: Individualistic
+00:00:00		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:19		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 6/05/2022 2:02:20 pm
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:16
+
+Exp. Time	Act. Time	Task (4)
+00:03:11	00:02:26	Reg_Scen: Individualistic
+00:00:00	00:00:01	VEDA To TIMES I...
+00:00:31	00:00:31	Updating SysSettings...
+00:00:19	00:00:18	VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 9/05/2022 9:55:36 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:00:00
+
+Exp. Time	Act. Time	Task (8)
+00:00:37		SR: NewTransport-KEA
+00:00:24		SR Transformation: NewTransport-KEA
+00:00:33		SR: NewTransport-TUI
+00:00:15		SR Transformation: NewTransport-TUI
+00:00:06		Transfer Data: [SR]
+00:00:01		VEDA To TIMES I...
+00:00:31		Updating SysSettings...
+00:00:18		VEDA To TIMES II...
+
+
+
+
+---------------------------------------------------------------------------------
+Import Task list and their taken time on 9/05/2022 9:59:29 am
+---------------------------------------------------------------------------------
+
+Total time taken 00:03:44
+
+Exp. Time	Act. Time	Task (8)
+00:00:37	00:01:33	SR: NewTransport-KEA
+00:00:24	00:00:27	SR Transformation: NewTransport-KEA
+00:00:33	00:00:34	SR: NewTransport-TUI
+00:00:15	00:00:14	SR Transformation: NewTransport-TUI
+00:00:06	00:00:05	Transfer Data: [SR]
+00:00:01	00:00:00	VEDA To TIMES I...
+00:00:31	00:00:36	Updating SysSettings...
+00:00:18	00:00:15	VEDA To TIMES II...
+
+
+
+
