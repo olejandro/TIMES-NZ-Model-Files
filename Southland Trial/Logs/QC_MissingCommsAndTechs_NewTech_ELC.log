@@ -1,0 +1,39 @@
+The following Commodities have not been defined;
+All parameter information related with these will be removed
+
+COMMODITY
+
+ELCBIG
+ELCBIL
+ELCCOA
+ELCCOL
+ELCGEO
+ELCNGA
+ELCOIL
+ELCTID
+ELCURN
+ELCWOD
+MNCWST
+
+
+
+Process-Commodity-Parameter-Timeslice-Limtype-Year-Value-Sheet-Cell
+
+ ; ELCBIG ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCBIL ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCCOA ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCCOL ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCGEO ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCNGA ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCOIL ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCTID ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCURN ; Topology ;  ;  ;  ;  ;  ; 
+ ; ELCWOD ; Topology ;  ;  ;  ;  ;  ; 
+ ; MNCWST ; Topology ;  ;  ;  ;  ;  ; 
+EHCO_CCS30 ; ELCCOA ; Input ; ANNUAL ; - ; 2030 ; 2.5 ; ELC_CCS ; 6,10
+EHCO_CCS30 ; ELCCOA ; Input ; ANNUAL ; - ; 2050 ; 2.27272727272727 ; ELC_CCS ; 6,11
+EHCOL_CCS30 ; ELCCOL ; Input ; ANNUAL ; - ; 2030 ; 3.03030303030303 ; ELC_CCS ; 9,10
+EHCOL_CCS30 ; ELCCOL ; Input ; ANNUAL ; - ; 2050 ; 2.56410256410256 ; ELC_CCS ; 9,11
+ENGA_CCS30 ; ELCNGA ; Input ; ANNUAL ; - ; 2030 ; 2 ; ELC_CCS ; 12,10
+ENGA_CCS30 ; ELCNGA ; Input ; ANNUAL ; - ; 2050 ; 1.75438596491228 ; ELC_CCS ; 12,11
+
