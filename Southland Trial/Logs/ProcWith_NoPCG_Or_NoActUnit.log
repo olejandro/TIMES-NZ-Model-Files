@@ -1,7 +1,0 @@
-Process with no PCG/ActUnit:
-Scenario ; Region ; Process ; PrimaryCG ; Activity Unit 
-
-BASE ; SL ; MINBIL00 ;  ; PJ
-BASE ; SL ; MINEGL00 ;  ; PJ
-BASE ; SL ; MINRES00 ;  ; PJ
-
