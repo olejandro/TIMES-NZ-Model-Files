@@ -1,0 +1,24 @@
+Process with no PCG/ActUnit:
+Scenario ; Region ; Process ; PrimaryCG ; Activity Unit 
+
+NewTech_RC ; SI ; C_EDU-SC_AirHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_EDU-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_HLTH-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_HLTH-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_OFFC-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_OFFC-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_OTH-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_OTH-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_WSR-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; SI ; C_WSR-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_HLTH-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_HLTH-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_EDU-SC_AirHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_EDU-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_OFFC-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_OFFC-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_OTH-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_OTH-SC_GHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_WSR-SC_AIRHP-ELC ;  ; PJ
+NewTech_RC ; NI ; C_WSR-SC_GHP-ELC ;  ; PJ
+
