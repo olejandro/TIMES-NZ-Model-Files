@@ -1,9 +1,0 @@
-﻿Scenario,UserName,ModelName,Studyname,Attribute,Process,Period,Region,Vintage,Timeslice,Pv
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_NcapM","ALLL-ELCBOIL","2053","SL","-","-","479.629129728435"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_NcapM","ALLL-ELCBOIL","2048","SL","-","-","229.113993684456"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_NcapM","ALLL-ELCBOIL","2043","SL","-","-","229.113993684456"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_NcapM","ALLL-ELCBOIL","2033","SL","-","-","63.7332945622309"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_NcapM","ALLL-ELCBOIL","2028","SL","-","-","272.464215760065"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_ActM","ALLL-ELCBOIL","2063","SL","2063","ANNUAL","0.8681474"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_ActM","ALLL-ELCBOIL","2058","SL","2058","ANNUAL","1.5483636"
-"sl-trial","greeda","Southland Trial","pilot_runs","VAR_ActM","ALLL-ELCBOIL","2028","SL","2028","ANNUAL","9.8182883"
