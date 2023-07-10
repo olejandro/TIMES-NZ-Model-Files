@@ -12,8 +12,8 @@ python -m pip install -r requirements.txt
 ```
 After changing the TIMES-NZ model excel files, before you make a pull request, please run `times_excel_summary.py` in the utils subdirectory to generate a summary of the new model. This will help reviewers understand the changes made.
 ```bash
-cd utils
 .venv/Scripts/Activate.ps1
-python .\summarize_times_tables.py
+cd utils
+python .\raw_table_summary.py
 ```
 Then commit changes and push to GitHub, and make a pull request.
