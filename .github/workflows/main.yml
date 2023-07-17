@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, raw-table-summary ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout tool
+      uses: actions/checkout@v2
+      with:
+        repository: etsap-TIMES/times-excel-reader
+        path: tool
+
+    - name: Checkout models
+      uses: actions/checkout@v2
+      with:
+        repository: yourusername/your-model-repo
+        path: models
+        token: ${{ secrets.GIT_TOKEN }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        cd tool
+        pip install -r requirements.txt
+
+    - name: Run tool on models
+      run: |
+        cd tool
+        python times_excel_reader.py ../models
