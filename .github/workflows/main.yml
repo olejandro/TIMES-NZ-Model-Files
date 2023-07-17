@@ -35,7 +35,7 @@ jobs:
 
     - name: Run raw_table_summary on TIMES-NZ-Model-Files
       run: |
-        cd model/
+        cd model/utils
         python raw_table_summary.py
 
     - name: Display output
