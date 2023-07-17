@@ -40,7 +40,8 @@ jobs:
 
     - name: Display output
       run: |
-        cat TIMES-NZ/raw_table_summary/raw_tables.txt
+        cd model/TIMES-NZ/raw_table_summary
+        cat raw_tables.txt
 
     - name: Upload output
       uses: actions/upload-artifact@v2
