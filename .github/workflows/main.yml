@@ -1,9 +1,9 @@
-# Hopefully this is a comment
 name: CI
 
 on:
   push:
-    branches: [ master, raw-table-summary ]
+    branches: [ master ]
+  pull_request:
 
 jobs:
   build:
@@ -49,7 +49,7 @@ jobs:
         name: output
         path: TIMES-NZ/raw_table_summary/raw_tables.txt
 
-    #- name: Run times-excel-reader on TIMES-NZ-Model-Files
-    #  run: |
-    #    cd tool
-    #    python times_excel_reader.py ../model
+    - name: Run times-excel-reader on TIMES-NZ-Model-Files
+      run: |
+        cd tool
+        # python times_excel_reader.py ../model # CURRENTLY BROKEN
