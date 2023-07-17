@@ -18,7 +18,7 @@ jobs:
     - name: Checkout models
       uses: actions/checkout@v2
       with:
-        repository: yourusername/your-model-repo
+        repository: EECA-NZ/TIMES-NZ-Model-Files
         path: models
         token: ${{ secrets.GIT_TOKEN }}
 
