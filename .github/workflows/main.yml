@@ -17,14 +17,14 @@ jobs:
         path: tool
 
     - name: Checkout TIMES-NZ-Model-Files
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         repository: EECA-NZ/TIMES-NZ-Model-Files
         path: model
         token: ${{ secrets.GH_TOKEN }}
 
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
 
@@ -44,10 +44,10 @@ jobs:
         cat raw_tables.txt
 
     - name: Upload output
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: output
-        path: TIMES-NZ/raw_table_summary/raw_tables.txt
+        path: model/TIMES-NZ/raw_table_summary/raw_tables.txt
 
     - name: Run times-excel-reader on TIMES-NZ-Model-Files
       run: |
