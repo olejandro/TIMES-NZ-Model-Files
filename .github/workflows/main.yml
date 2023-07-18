@@ -58,6 +58,7 @@ jobs:
 
     - name: Copy raw_tables.txt to base branch
       run: |
+        mkdir -p base/TIMES-NZ/raw_table_summary
         cp head/TIMES-NZ/raw_table_summary/raw_tables.txt base/TIMES-NZ/raw_table_summary/raw_tables.txt
 
     - name: Generate git diff
