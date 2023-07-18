@@ -16,11 +16,18 @@ jobs:
         repository: etsap-TIMES/times-excel-reader
         path: tool
 
-    - name: Checkout TIMES-NZ-Model-Files
+    - name: Checkout base branch
       uses: actions/checkout@v3
       with:
-        repository: EECA-NZ/TIMES-NZ-Model-Files
-        path: model
+        ref: ${{ github.base_ref }}
+        path: base
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Checkout head branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+        path: head
         token: ${{ secrets.GH_TOKEN }}
 
     - name: Setup Python
@@ -30,24 +37,43 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd tool
+        cd head
         pip install -r requirements.txt
 
     - name: Run raw_table_summary on TIMES-NZ-Model-Files
       run: |
-        cd model/utils
+        cd head/utils
         python raw_table_summary.py
 
     - name: Display output
       run: |
-        cd model/TIMES-NZ/raw_table_summary
+        cd head/TIMES-NZ/raw_table_summary
         cat raw_tables.txt
 
     - name: Upload output
       uses: actions/upload-artifact@v3
       with:
         name: output
-        path: model/TIMES-NZ/raw_table_summary/raw_tables.txt
+        path: head/TIMES-NZ/raw_table_summary/raw_tables.txt
+
+    - name: Copy raw_tables.txt to base branch
+      run: |
+        cp head/model/TIMES-NZ/raw_table_summary/raw_tables.txt base/model/TIMES-NZ/raw_table_summary/raw_tables.txt
+
+    - name: Generate git diff
+      run: |
+        cd base
+        git diff > diff.txt
+
+    - name: Display output
+      run: |
+        cat base/diff.txt
+
+    - name: Upload output
+      uses: actions/upload-artifact@v3
+      with:
+        name: diff
+        path: base/diff.txt
 
     - name: Run times-excel-reader on TIMES-NZ-Model-Files
       run: |
