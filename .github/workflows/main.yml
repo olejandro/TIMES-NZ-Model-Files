@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout times-excel-reader
+      uses: actions/checkout@v3
+      with:
+        repository: etsap-TIMES/times-excel-reader
+        path: tool
+
+    - name: Checkout base branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.base_ref }}
+        path: base
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Checkout head branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+        path: head
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        cd head
+        pip install -r requirements.txt
+
+    - name: Run raw_table_summary on TIMES-NZ-Model-Files
+      run: |
+        cd head/utils
+        python raw_table_summary.py
+
+    - name: Display output
+      run: |
+        cd head/TIMES-NZ/raw_table_summary
+        cat raw_tables.txt
+
+    - name: Upload output
+      uses: actions/upload-artifact@v3
+      with:
+        name: output
+        path: head/TIMES-NZ/raw_table_summary/raw_tables.txt
+
+    - name: Copy raw_tables.txt to base branch
+      run: |
+        mkdir -p base/TIMES-NZ/raw_table_summary
+        cp head/TIMES-NZ/raw_table_summary/raw_tables.txt base/TIMES-NZ/raw_table_summary/raw_tables.txt
+
+    - name: Generate git diff
+      run: |
+        cd base
+        git diff > diff.txt
+
+    - name: Display git diff
+      run: |
+        cat base/diff.txt
+
+    - name: Upload git diff
+      uses: actions/upload-artifact@v3
+      with:
+        name: diff
+        path: base/diff.txt
+
+    - name: Run times-excel-reader on TIMES-NZ-Model-Files
+      run: |
+        cd tool
+        # python times_excel_reader.py ../model # CURRENTLY BROKEN
