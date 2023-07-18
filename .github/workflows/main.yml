@@ -58,18 +58,18 @@ jobs:
 
     - name: Copy raw_tables.txt to base branch
       run: |
-        cp head/model/TIMES-NZ/raw_table_summary/raw_tables.txt base/model/TIMES-NZ/raw_table_summary/raw_tables.txt
+        cp head/TIMES-NZ/raw_table_summary/raw_tables.txt base/TIMES-NZ/raw_table_summary/raw_tables.txt
 
     - name: Generate git diff
       run: |
         cd base
         git diff > diff.txt
 
-    - name: Display output
+    - name: Display git diff
       run: |
         cat base/diff.txt
 
-    - name: Upload output
+    - name: Upload git diff
       uses: actions/upload-artifact@v3
       with:
         name: diff
