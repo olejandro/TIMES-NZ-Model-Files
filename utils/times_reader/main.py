@@ -383,7 +383,8 @@ def strip_filename_prefix(table, prefix):
 
 def dump_tables_modified(tables: List, filename: str, prefix: str) -> List:
     # Modify the filename in each table
-    tables_modified = [strip_filename_prefix(t, prefix) for t in tables.sort()]
+    tables.sort(key=lambda x: (x.filename, x.sheetname, x.range))
+    tables_modified = [strip_filename_prefix(t, prefix) for t in tables]
     return dump_tables(tables_modified, filename)
 
 
