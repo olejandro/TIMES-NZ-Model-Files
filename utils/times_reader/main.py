@@ -108,6 +108,7 @@ def output_raw_tables_from_xl(
             for f in input_files:
                 result = excel.extract_tables(f)
                 raw_tables.extend(result)
+
         pickle.dump(raw_tables, open(pickle_file, "wb"))
 
     print(
@@ -382,6 +383,7 @@ def strip_filename_prefix(table, prefix):
 
 def dump_tables_modified(tables: List, filename: str, prefix: str) -> List:
     # Modify the filename in each table
+    tables.sort(key=lambda x: (x.filename, x.sheetname, x.range))
     tables_modified = [strip_filename_prefix(t, prefix) for t in tables]
     return dump_tables(tables_modified, filename)
 
