@@ -10,12 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout times-excel-reader
-      uses: actions/checkout@v3
-      with:
-        repository: etsap-TIMES/times-excel-reader
-        path: tool
-
     - name: Checkout base branch
       uses: actions/checkout@v3
       with:
@@ -35,15 +29,14 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Install dependencies
+    - name: Install times-excel-reader
       run: |
-        cd head
-        pip install -r requirements.txt
+        pip install git+https://github.com/etsap-TIMES/times-excel-reader.git
 
     - name: Run raw_table_summary on TIMES-NZ-Model-Files
       run: |
-        cd head/utils
-        python raw_table_summary.py
+        cd head
+        times-excel-reader TIMES-NZ/ --output_dir TIMES-NZ/raw_table_summary/ --only_read
 
     - name: Display output
       run: |
@@ -78,5 +71,5 @@ jobs:
 
     - name: Run times-excel-reader on TIMES-NZ-Model-Files
       run: |
-        cd tool
-        # python times_excel_reader.py ../model # CURRENTLY BROKEN
+        echo "Temporarily disabled. See https://github.com/EECA-NZ/TIMES-NZ-Model-Files/issue/10"
+        # times-excel-reader ../model # CURRENTLY BROKEN
