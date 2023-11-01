@@ -49,28 +49,29 @@ GitHub Desktop: Select "Branch -> New Branch" from the menu, and enter your bran
 
 Now you can start making changes to the code. You can create new files, modify existing ones, and delete what you don't need.
 
-
 #### 4. Document Your Changes
 
-Use the python tool `times-excel-reader` to generate a summary of the model at `TIMES-NZ/raw_table_summary/raw_tables.txt`. This will help reviewers see the changes you've made to the Excel files by viewing the diff of this text file in the pull request.
+Use the Dockerized `times-excel-reader` tool to generate a summary of the model at `TIMES-NZ/raw_table_summary/raw_tables.txt`. This will help reviewers see the changes you've made to the Excel files by viewing the diff of this text file in the pull request.
 
-We recommend using a Python virtual environment:
+After changing the TIMES-NZ model excel files, before committing the changes and making a pull request, please run the following `docker run` command to generate a summary of the new model. Before running the following docker command for the first time, you will need to build the Docker image:
 ```bash
-python3 -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install git+https://github.com/etsap-TIMES/times-excel-reader.git
+docker build -t times_excel_reader .
+```
+This will also need to be done when there are updates to the Dockerfile or `requirements.txt`. Otherwise, you can just run the container as needed with the following `docker run` command:
+```bash
+docker run -it --rm --name my_times_reader -v ${PWD}/TIMES-NZ:/usr/src/app/TIMES-NZ times_excel_reader
 ```
 
-After changing the TIMES-NZ model excel files, before committing the changes and making a pull request, please run `times-excel-reader` to generate a summary of the new model as follows:
-```bash
-.venv/Scripts/Activate.ps1
-times-excel-reader TIMES-NZ/ --output_dir TIMES-NZ/raw_table_summary/ --only_read
-```
 Then commit changes that have been made by the script to `TIMES-NZ/raw_table_summary/raw_tables.txt`, alongside your changes to the excel workbooks. These changes will be visible if you run `git diff` before committing.
 
-**Note:** If you are unable to run the `times-excel-reader` tool on your machine, you can open a pull request without changing the `raw_tables.txt` file. The GitHub Actions check will fail on your PR, and the check will create an artifact containing the updated `raw_tables.txt`. You can download this and update the one on your branch instead.
+**Note:**
 
-#### 4. Commit Your Changes
+* If you are unable to run the `times-excel-reader` tool on your machine, you can open a pull request without changing the `raw_tables.txt` file. The GitHub Actions check will fail on your PR, and the check will create an artifact containing the updated `raw_tables.txt`. You can download this and update the one on your branch instead.
+
+* The `times-excel-reader` tool generates file paths with forward slashes (`/`). If you're working on Windows, the file paths in the `raw_tables.txt` may contain backslashes (`\`). To maintain consistency across environments, we recommend running the tool in a Linux-like environment (e.g., using WSL on Windows) or normalizing file paths using a tool like `sed` before committing your changes.
+
+
+#### 5. Commit Your Changes
 
 After you've made some changes, you need to "commit" them. This takes a snapshot of your changes, which you can then push to GitHub.
 
@@ -84,7 +85,7 @@ git commit -m "Your descriptive commit message"
 
 GitHub Desktop: In the Changes tab, write a commit message summarizing your changes and click "Commit to [branch name]".
 
-#### 5. Push Your Changes
+#### 6. Push Your Changes
 
 After committing, you need to "push" your changes to GitHub. This makes them available to others.
 
@@ -95,7 +96,7 @@ git push --set-upstream origin <your-branch-name>
 
 GitHub Desktop: Click the "Push origin" button in the toolbar.
 
-#### 6. Create a Pull Request
+#### 7. Create a Pull Request
 
 Finally, you can ask for your changes to be merged into the main branch by creating a "pull request". 
 
