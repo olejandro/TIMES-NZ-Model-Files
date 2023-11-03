@@ -75,7 +75,7 @@ If you're new to Git and GitHub, here's a simple guide on how to get started.
 ### Prerequisites
 
 - Make sure you have Git installed on your machine. You can download it from here: https://git-scm.com/downloads.
-- If you prefer a graphical user interface, GitHub Desktop is an option, but we the use of command-line tools is recommended in order to ensure repeatability. If you want to use GitHub Desktop, you can download it here: https://desktop.github.com/.
+- If you prefer a graphical user interface, GitHub Desktop is an option, but the use of command-line tools is preferred in order to ensure repeatability. If you want to use GitHub Desktop, you can download it here: https://desktop.github.com/.
 
 ### Steps
 
@@ -134,7 +134,7 @@ Command line:
 ```bash
 # Add changes to the staging area
 git status
-git add [specific changed file related to commit]
+git add [specific changed file or files related to commit]
 # Commit the changes
 git commit -m "Your descriptive commit message"
 ```
