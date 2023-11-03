@@ -10,7 +10,7 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 
 1. [TIMES-NZ-Model-Files](https://github.com/EECA-NZ/TIMES-NZ-Model-Files): Houses the Excel files defining the TIMES-NZ energy system model configuration, along with additional resources and tools for change tracking.
 
-2. [TIMES-NZ-GAMS-Files](https://github.com/EECA-NZ/TIMES-NZ-GAMS-Files): Contains the GAMS model files for TIMES-NZ scenarios and scripts to enable repeatable scenario execution.
+2. [TIMES-NZ-GAMS-Files](https://github.com/EECA-NZ/TIMES-NZ-GAMS-Files): Contains the GAMS model files for TIMES-NZ scenarios and scripts to enable reproducible scenario execution.
 
 3. [TIMES-NZ-Visualisation](https://github.com/EECA-NZ/TIMES-NZ-Visualisation): Provides a tool for visualizing the results of TIMES-NZ scenarios using an RShiny application.
 
@@ -37,12 +37,12 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 For more specific instructions, including the commands and scripts to be used at each step, please refer to the README files in the respective repositories:
 - [TIMES-NZ-Model-Files README](https://github.com/EECA-NZ/TIMES-NZ-Model-Files/blob/main/README.md)
 - [TIMES-NZ-GAMS-Files README](https://github.com/EECA-NZ/TIMES-NZ-GAMS-Files/blob/main/README.md)
-- [TIMES-NZ-Visualisation README](https://github.com/EECA-NZ/TIMES-NZ-Visualisation/blob/main/README.md)
+- [TIMES-NZ-Visualisation README](https://github.com/EECA-NZ/TIMES-NZ-Visualisation?files=1#readme)
 
 For any questions or support, you can contact [dataandanalytics@eeca.govt.nz].
 
-**Note:** The above workflow describes current state. In the future we hope to
-* automate the process of generating the Excel configuration files using Repeatable Analytical Pipelines (RAPs);
+**Note:** The above workflow describes current state. In the future we hope to:
+* automate the process of generating the Excel configuration files using Reproducible Analytical Pipelines (RAPs);
 * automate the production of GAMS files directly from the excel files without the use of VEDA.
 
 
@@ -55,7 +55,7 @@ Before you start working with this project, you will need the following tools in
 
 - [GAMS](https://www.gams.com/) installed on your system.
 - A valid GAMS license placed in the system's designated location (e.g., `C:\GAMS\42\gamslice.txt`).
-- A working VEDA (VEDA 2.0 localhost) installation.
+- A working VEDA (VEDA 2.0 localhost) installation ([instructions here](https://veda-documentation.readthedocs.io/en/latest/pages/Getting%20started.html)).
 
 Ensure that you are able to use Git via the command line in a PowerShell-like environment. This README assumes Windows 10 or higher.
 
@@ -75,7 +75,7 @@ If you're new to Git and GitHub, here's a simple guide on how to get started.
 ### Prerequisites
 
 - Make sure you have Git installed on your machine. You can download it from here: https://git-scm.com/downloads.
-- If you prefer a graphical user interface, GitHub Desktop is a good option. You can download it here: https://desktop.github.com/.
+- If you prefer a graphical user interface, GitHub Desktop is an option, but we the use of command-line tools is recommended in order to ensure repeatability. If you want to use GitHub Desktop, you can download it here: https://desktop.github.com/.
 
 ### Steps
 
@@ -128,12 +128,13 @@ Then commit changes that have been made by the script to `TIMES-NZ/raw_table_sum
 
 #### 5. Commit Your Changes
 
-After you've made some changes, you need to "commit" them. This takes a snapshot of your changes, which you can then push to GitHub.
+After you've made some changes, you need to "commit" them. This takes a snapshot of your changes, which you can then push to GitHub. **Important**: Please take care to ensure that only changes you intend to commit are committed!
 
 Command line:
 ```bash
 # Add changes to the staging area
-git add .
+git status
+git add [specific changed file related to commit]
 # Commit the changes
 git commit -m "Your descriptive commit message"
 ```
