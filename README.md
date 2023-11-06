@@ -27,7 +27,7 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 - Run the GAMS solver using the `run_times_scenario.ps1` PowerShell script, and the output files will be generated.
 
 #### Step 3: Visualization Preparation
-- After running the scenario, take the output vd file and copy it into the TIMES-NZ-Visualisation's `data_cleaning` subdirectory.
+- After running the scenario, take the output vd file and copy it into the TIMES-NZ-Visualisation's `data_cleaning` subdirectory. Depending on the details of the user's system configuration, this could look something like the following:
 ```PowerShell
 $times_nz_gams_files_local_repo = "C:\Users\$env:USERNAME\git\TIMES-NZ-GAMS-Files"
 $times_nz_visualization_local_repo = "C:\Users\$env:USERNAME\git\TIMES-NZ-Visualisation"
