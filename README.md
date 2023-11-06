@@ -28,6 +28,12 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 
 #### Step 3: Visualization Preparation
 - After running the scenario, take the output vd file and copy it into the TIMES-NZ-Visualisation's `data_cleaning` subdirectory.
+```PowerShell
+$times_nz_gams_files_local_repo = "C:\Users\$env:USERNAME\git\TIMES-NZ-GAMS-Files"
+$times_nz_visualization_local_repo = "C:\Users\$env:USERNAME\git\TIMES-NZ-Visualisation"
+$scenario='tui-v2_1_2'
+cp $times_nz_gams_files_local_repo\$scenario\$scenario.vd $times_nz_visualization_local_repo\data_cleaning
+```
 - Run the data extraction script in the `data_cleaning` subdirectory to process the output and generate a file ready for visualization (e.g., tui-v2_1_2.rda).
 
 #### Step 4: Visualization with RShiny
@@ -63,7 +69,7 @@ Ensure that you are able to use Git via the command line in a PowerShell-like en
 
 Here's how to get the project installed on your local machine for development:
 
-```bash
+```PowerShell
 git clone git@github.com:EECA-NZ/TIMES-NZ-Model-Files.git
 cd TIMES-NZ-Model-Files
 ```
@@ -83,7 +89,7 @@ If you're new to Git and GitHub, here's a simple guide on how to get started.
 
 First, you'll need to make a copy of this repository on your local machine. This is called "cloning". If you're using command line, use the following command:
 
-```bash
+```PowerShell
 git clone git@github.com:EECA-NZ/TIMES-NZ-Model-Files.git
 ```
 
@@ -94,7 +100,7 @@ If you're using GitHub Desktop, you can clone the repository by selecting "File 
 Before making changes, it's best practice to create a new branch. This keeps your changes isolated until they're ready to be merged into the main branch. Here's how you can do it:
 
 Command line:
-```bash
+```PowerShell
 git checkout -b <your-branch-name>
 ```
 
@@ -109,11 +115,11 @@ Now you can start making changes to the code. You can create new files, modify e
 Use the Dockerized `times-excel-reader` tool to generate a summary of the model at `TIMES-NZ/raw_table_summary/raw_tables.txt`. This will help reviewers see the changes you've made to the Excel files by viewing the diff of this text file in the pull request.
 
 After changing the TIMES-NZ model excel files, before committing the changes and making a pull request, please run the following `docker run` command to generate a summary of the new model. Before running the following docker command for the first time, you will need to build the Docker image:
-```bash
+```PowerShell
 docker build -t times_excel_reader .
 ```
 This will also need to be done when there are updates to the Dockerfile or `requirements.txt`. Otherwise, you can just run the container as needed with the following `docker run` command:
-```bash
+```PowerShell
 docker run -it --rm --name my_times_reader -v ${PWD}/TIMES-NZ:/usr/src/app/TIMES-NZ times_excel_reader
 ```
 
@@ -131,7 +137,7 @@ Then commit changes that have been made by the script to `TIMES-NZ/raw_table_sum
 After you've made some changes, you need to "commit" them. This takes a snapshot of your changes, which you can then push to GitHub. **Important**: Please take care to ensure that only changes you intend to commit are committed!
 
 Command line:
-```bash
+```PowerShell
 # Add changes to the staging area
 git status
 git add [specific changed file or files related to commit]
@@ -146,7 +152,7 @@ GitHub Desktop: In the Changes tab, write a commit message summarizing your chan
 After committing, you need to "push" your changes to GitHub. This makes them available to others.
 
 Command line:
-```bash
+```PowerShell
 git push --set-upstream origin <your-branch-name>
 ```
 
