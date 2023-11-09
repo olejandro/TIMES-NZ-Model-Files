@@ -17,7 +17,7 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 ### High-Level Workflow Overview
 
 #### Step 1: Model Configuration and Release Tagging
-- Begin by configuring the TIMES-NZ model in the TIMES-NZ-Model-Files repository, and using VEDA to run the model. Work is done in a development branch and merged to the main branch after review.
+- Begin by configuring the TIMES-NZ model in the TIMES-NZ-Model-Files repository, and using VEDA to run the model. Work is done in a development branch and merged to the main branch after review - i.e. we follow the standard [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow).
 - When ready to release a new version of the model, name your scenarios to include the release tag (e.g., kea-v2_1_2).
 - Once the configuration is complete and scenarios are named, commit your changes and tag the release (e.g., v2.1.2).
 
