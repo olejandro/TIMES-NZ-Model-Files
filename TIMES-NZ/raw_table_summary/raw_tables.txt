@@ -12510,44 +12510,7 @@ TOTCO2,1,1,1,1,1,1,1
 
 
 sheetname: TRA_Demand-Vehicles
-range: C27:L57
-filename: VT_SI_TRA_V4.xlsx
-tag: ~FI_Process
-types: Sets (object), Region (object), TechName (object), TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
-Sets,Region,TechName,TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
-*Process Set Membership,Region Name,Technology Name,Technology Description,Activity USIt,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
-*,,,,,,,,
-DMD,SI,T_P_CICEPET15,Light Vehicles -Passenger-Car/SUV-ICE-Petrol-Existing,BVKm,000cars,,,
-DMD,SI,T_P_CICEDSL15,Light Vehicles -Passenger-Car/SUV-ICE-Diesel-Existing,BVKm,000cars,,,
-DMD,SI,T_P_CBEVNEW15,Light Vehicles -Passenger-Car/SUV-BEV-Electricity-Existing,BVKm,000cars,,,
-DMD,SI,T_P_CBEVUSD15,Light Vehicles -Passenger-Car/SUV-BEV: Used Import-Electricity-Existing,BVKm,000cars,,,
-DMD,SI,T_P_CICELPG15,Light Vehicles -Passenger-Car/SUV-ICE-LPG-Existing 2015/New,BVKm,000cars,,,
-DMD,SI,T_P_CHYBPET15,Light Vehicles -Passenger-Car/SUV-ICE Hybrid-Petrol-Existing 2015/New,BVKm,000cars,,,
-DMD,SI,T_P_CPHEVPET15,Light Vehicles -Passenger-Car/SUV-PHEV-Petrol-Existing 2015/New,BVKm,000cars,,,
-DMD,SI,T_C_CICEPET15,Light Vehicles -Commercial-Van/ute-ICE-Petrol-Existing,BVKm,000cars,,,
-DMD,SI,T_C_CICEDSL15,Light Vehicles -Commercial-Van/ute-ICE-Diesel-Existing,BVKm,000cars,,,
-DMD,SI,T_C_CBEVNEW15,Light Vehicles -Commercial-Van/ute-BEV-Electricity-Existing,BVKm,000cars,,,
-DMD,SI,T_C_CICELPG15,Light Vehicles -Commercial-Van/ute-ICE-LPG-Existing 2015/New,BVKm,000cars,,,
-DMD,SI,T_C_CHYBPET15,Light Vehicles -Commercial-Van/ute-ICE Hybrid-Petrol-Existing 2015/New,BVKm,000cars,,,
-DMD,SI,T_P_MICEPET15,Motor cycle petrol,BVKm,000mcy,,,
-DMD,SI,T_P_BICEPET15,Bus- ICE-PET,BVKm,000busses,,,
-DMD,SI,T_P_BICEDSL15,Bus- ICE-DSL,BVKm,000busses,,,
-DMD,SI,T_P_BBEVELC15,Bus- BEV-NEW,BVKm,000busses,,,
-DMD,SI,T_F_MTICEPET15,Medium Truck - ICE - PET,BVKm,000trucks,,,
-DMD,SI,T_F_MTICEDSL15,Medium Truck - ICE - DSL,BVKm,000trucks,,,
-DMD,SI,T_F_MBEVELC15,Medium Truck - BEV - NEW,BVKm,000trucks,,,
-DMD,SI,T_F_HTICEDSL15,Heavy truck - ICE - DSL,BVKm,000trucks,,,
-DMD,SI,T_F_VHTICEDSL15,Very Heavy Truck - ICE - DSL,BVKm,000trucks,,,
-DMD,SI,T_F_DSHIPP15,Domestic shipping,PJ,PJa,,,
-DMD,SI,T_F_ISHIPP15,International shipping,PJ,PJa,,,
-DMD,SI,T_O_FuelJet,Other transport fuels aviation jet fuel,PJ,PJa,,,
-DMD,SI,T_O_FuelJet_Int,Other transport fuels aviation jet fuel - International,PJ,PJa,,,
-DMD,SI,T_R_Rail15,Rail transport fuel consumption,PJ,PJa,,,
-DMD,SI,T_P_Rail15,Passenger rail transport fuel consumption,PJ,PJa,,,
-
-
-sheetname: TRA_Demand-Vehicles
-range: C61:AB93
+range: C39:AB71
 filename: VT_SI_TRA_V4.xlsx
 tag: ~FI_T
 types: TechName (object), Comm-IN (object), Comm-OUT (object), *EFF (object), EFF~2018 (object), LIFE (object), *ACT_BND~UP (object), *ACT_BND (object), ACT_BND~2018 (object), ACT_BND~0 (object), Cap2Act (object), *NCAP_AFA (object), NCAP_AFA~2018 (object), INVCOST (object), FIXOM (object), VAROM (object), *PRC_resid~2015 (object), PRC_resid~2018 (object), PRC_resid~2040 (object), PRC_resid~2045 (object), PRC_resid~2050 (object), Share (object), Share~0 (object), *CEFF (object), CEFF~2018 (object)
@@ -12586,30 +12549,30 @@ T_P_Rail15,TRAELC,T_P_Rail,,1,60,,0.025286744,0.0144979487179487,,,1,,,,,,,,,,,,
 
 
 sheetname: TRA_Demand-Vehicles
-range: C6:L22
+range: C6:P22
 filename: VT_SI_TRA_V4.xlsx
 tag: ~FI_Comm
-types: Csets (object), Region (object), CommName (object), CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
-Csets,Region,CommName,CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
-*Commodity Set Membership,Region Name,Commodity Name,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak MoSItoring,Electricity Indicator
-DEM,SI,T_P_Car,Passenger transport - cars,BVkm,,,,
-,SI,T_C_Car,Commercial transport - Van&Ute,BVkm,,,,
-,SI,T_P_Mcy,Passenger transport motorcycles,BVkm,,,,
-,SI,T_P_Bus,Passenger transport bus,BVkm,,,,
-,SI,T_F_MTrk,Freight transport - Medium Trucks,BVkm,,,,
-,SI,T_F_HTrk,Freight transport - Heavy Trucks,BVkm,,,,
-,SI,T_F_VHTrk,Freight transport - Very Heavy Trucks,BVkm,,,,
-,SI,T_F_Rail,Freight transport - rail,PJ,,,,
-,SI,T_P_Rail,Passenger transport - rail,PJ,,,,
-,SI,T_F_DSHIP,Domestic shipping,PJ,,,,
-,SI,T_F_ISHIP,International shipping,PJ,,,,
-,SI,T_O_JET,Other transport aviation jet fuel,PJ,,,,
-,SI,T_O_JET_Int,Other transport aviation jet fuel - International,PJ,,,,
-NRG,SI,H2R,Hydrogen fuel,PJ,FX,,,
+types: Csets (object), Region (object), CommName (object), * Sector (object), * Subsector (object), * Fuel/Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
+Csets,Region,CommName,* Sector,* Subsector,* Fuel/Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
+*Commodity Set Membership,Region Name,Commodity Name,,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak MoSItoring,Electricity Indicator
+DEM,SI,T_P_Car,Transport,Road Transport,Car/SUV,Transport -:- Road Transport -:- Car/SUV,Passenger transport - cars,BVkm,,,,
+,SI,T_C_Car,Transport,Road Transport,Van/Ute,Transport -:- Road Transport -:- Van/Ute,Commercial transport - Van&Ute,BVkm,,,,
+,SI,T_P_Mcy,Transport,Road Transport,Motorcycles,Transport -:- Road Transport -:- Motorcycles,Passenger transport motorcycles,BVkm,,,,
+,SI,T_P_Bus,Transport,Road Transport,Bus,Transport -:- Road Transport -:- Bus,Passenger transport bus,BVkm,,,,
+,SI,T_F_MTrk,Transport,Road Transport,Medium Truck,Transport -:- Road Transport -:- Medium Truck,Freight transport - Medium Trucks,BVkm,,,,
+,SI,T_F_HTrk,Transport,Road Transport,Heavy Truck,Transport -:- Road Transport -:- Heavy Truck,Freight transport - Heavy Trucks,BVkm,,,,
+,SI,T_F_VHTrk,Transport,Road Transport,Very Heavy Truck,Transport -:- Road Transport -:- Very Heavy Truck,Freight transport - Very Heavy Trucks,BVkm,,,,
+,SI,T_F_Rail,Transport,Rail,Freight Rail,Transport -:- Rail -:- Freight Rail,Freight transport - rail,PJ,,,,
+,SI,T_P_Rail,Transport,Rail,Passenger Rail,Transport -:- Rail -:- Passenger Rail,Passenger transport - rail,PJ,,,,
+,SI,T_F_DSHIP,Transport,Shipping,Domestic Shipping,Transport -:- Shipping -:- Domestic Shipping,Domestic shipping,PJ,,,,
+,SI,T_F_ISHIP,Transport,Shipping,International Shipping,Transport -:- Shipping -:- International Shipping,International shipping,PJ,,,,
+,SI,T_O_JET,Transport,Aviation,Domestic Aviation,Transport -:- Aviation -:- Domestic Aviation,Other transport aviation jet fuel,PJ,,,,
+,SI,T_O_JET_Int,Transport,Aviation,International Aviation,Transport -:- Aviation -:- International Aviation,Other transport aviation jet fuel - International,PJ,,,,
+NRG,SI,H2R,Transport,,Green Hydrogen,Transport -:-  -:- Green Hydrogen,Hydrogen fuel,PJ,FX,,,
 
 
 sheetname: TRA_Demand-Vehicles
-range: C97:P111
+range: C75:P89
 filename: VT_SI_TRA_V4.xlsx
 tag: ~FI_T: Demand
 types: CommName (object), *2015 (object), *2016 (object), 2018 (object), 2021 (object), 2025 (object), 2030 (object), 2035 (object), 2040 (object), 2045 (object), 2050 (object), 2055 (object), 2060 (object)
@@ -12629,6 +12592,43 @@ T_F_Rail,0.5655245252894,0.518474220125731,0.424373609798393,0.4,0.41,0.44,0.46,
 T_P_Rail,0.025286744,0.0216904789059829,0.0144979487179487,0.01,0,0,0,0,0,0,0,0
 
 
+sheetname: TRA_Demand-Vehicles
+range: S6:AH36
+filename: VT_SI_TRA_V4.xlsx
+tag: ~FI_Process
+types: Sets (object), Region (object), TechName (object), * Sector (object), * Subsector (object), * Enduse (object), * Technology (object), * Fuel (object), TechDesc (object), * OLD TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
+Sets,Region,TechName,* Sector,* Subsector,* Enduse,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
+*Process Set Membership,Region Name,Technology Name,,,,,,,Technology Description,Activity USIt,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
+*,,,,,,,,,,,,,,
+DMD,SI,T_P_CICEPET15,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Petrol,Light Vehicles -Passenger-Car/SUV-ICE-Petrol-Existing,BVKm,000cars,,,
+DMD,SI,T_P_CICEDSL15,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Diesel,Light Vehicles -Passenger-Car/SUV-ICE-Diesel-Existing,BVKm,000cars,,,
+DMD,SI,T_P_CBEVNEW15,Transport,Road Transport,Car/SUV,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Battery Electric Vehicle -:- Electricity,Light Vehicles -Passenger-Car/SUV-BEV-Electricity-Existing,BVKm,000cars,,,
+DMD,SI,T_P_CBEVUSD15,Transport,Road Transport,Car/SUV,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Battery Electric Vehicle -:- Electricity,Light Vehicles -Passenger-Car/SUV-BEV: Used Import-Electricity-Existing,BVKm,000cars,,,
+DMD,SI,T_P_CICELPG15,Transport,Road Transport,Car/SUV,Internal Combustion Engine,LPG,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- LPG,Light Vehicles -Passenger-Car/SUV-ICE-LPG-Existing 2015/New,BVKm,000cars,,,
+DMD,SI,T_P_CHYBPET15,Transport,Road Transport,Car/SUV,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Hybrid Vehicle -:- Petrol,Light Vehicles -Passenger-Car/SUV-ICE Hybrid-Petrol-Existing 2015/New,BVKm,000cars,,,
+DMD,SI,T_P_CPHEVPET15,Transport,Road Transport,Car/SUV,Plug-In Hybrid Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Plug-In Hybrid Vehicle -:- Electricity,Light Vehicles -Passenger-Car/SUV-PHEV-Petrol-Existing 2015/New,BVKm,000cars,,,
+DMD,SI,T_C_CICEPET15,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Petrol,Light Vehicles -Commercial-Van/ute-ICE-Petrol-Existing,BVKm,000cars,,,
+DMD,SI,T_C_CICEDSL15,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Diesel,Light Vehicles -Commercial-Van/ute-ICE-Diesel-Existing,BVKm,000cars,,,
+DMD,SI,T_C_CBEVNEW15,Transport,Road Transport,Van/Ute,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Van/Ute -:- Battery Electric Vehicle -:- Electricity,Light Vehicles -Commercial-Van/ute-BEV-Electricity-Existing,BVKm,000cars,,,
+DMD,SI,T_C_CICELPG15,Transport,Road Transport,Van/Ute,Internal Combustion Engine,LPG,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- LPG,Light Vehicles -Commercial-Van/ute-ICE-LPG-Existing 2015/New,BVKm,000cars,,,
+DMD,SI,T_C_CHYBPET15,Transport,Road Transport,Van/Ute,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Hybrid Vehicle -:- Petrol,Light Vehicles -Commercial-Van/ute-ICE Hybrid-Petrol-Existing 2015/New,BVKm,000cars,,,
+DMD,SI,T_P_MICEPET15,Transport,Road Transport,Motorcycles,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Motorcycles -:- Internal Combustion Engine -:- Petrol,Motor cycle petrol,BVKm,000mcy,,,
+DMD,SI,T_P_BICEPET15,Transport,Road Transport,Bus,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Bus -:- Internal Combustion Engine -:- Petrol,Bus- ICE-PET,BVKm,000busses,,,
+DMD,SI,T_P_BICEDSL15,Transport,Road Transport,Bus,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Bus -:- Internal Combustion Engine -:- Diesel,Bus- ICE-DSL,BVKm,000busses,,,
+DMD,SI,T_P_BBEVELC15,Transport,Road Transport,Bus,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Bus -:- Battery Electric Vehicle -:- Electricity,Bus- BEV-NEW,BVKm,000busses,,,
+DMD,SI,T_F_MTICEPET15,Transport,Road Transport,Medium Truck,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Medium Truck -:- Internal Combustion Engine -:- Petrol,Medium Truck - ICE - PET,BVKm,000trucks,,,
+DMD,SI,T_F_MTICEDSL15,Transport,Road Transport,Medium Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Medium Truck -:- Internal Combustion Engine -:- Diesel,Medium Truck - ICE - DSL,BVKm,000trucks,,,
+DMD,SI,T_F_MBEVELC15,Transport,Road Transport,Medium Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Medium Truck -:- Battery Electric Vehicle -:- Electricity,Medium Truck - BEV - NEW,BVKm,000trucks,,,
+DMD,SI,T_F_HTICEDSL15,Transport,Road Transport,Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Heavy Truck -:- Internal Combustion Engine -:- Diesel,Heavy truck - ICE - DSL,BVKm,000trucks,,,
+DMD,SI,T_F_VHTICEDSL15,Transport,Road Transport,Very Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Very Heavy Truck -:- Internal Combustion Engine -:- Diesel,Very Heavy Truck - ICE - DSL,BVKm,000trucks,,,
+DMD,SI,T_F_DSHIPP15,Transport,Shipping,Domestic Shipping,Ship,Fuel Oil,Transport -:- Shipping -:- Domestic Shipping -:- Ship -:- Fuel Oil,Domestic shipping,PJ,PJa,,,
+DMD,SI,T_F_ISHIPP15,Transport,Shipping,International Shipping,Ship,Fuel Oil,Transport -:- Shipping -:- International Shipping -:- Ship -:- Fuel Oil,International shipping,PJ,PJa,,,
+DMD,SI,T_O_FuelJet,Transport,Aviation,Domestic Aviation,Plane,Jet Fuel,Transport -:- Aviation -:- Domestic Aviation -:- Plane -:- Jet Fuel,Other transport fuels aviation jet fuel,PJ,PJa,,,
+DMD,SI,T_O_FuelJet_Int,Transport,Aviation,International Aviation,Plane,Jet Fuel,Transport -:- Aviation -:- International Aviation -:- Plane -:- Jet Fuel,Other transport fuels aviation jet fuel - International,PJ,PJa,,,
+DMD,SI,T_R_Rail15,Transport,Rail,Freight Rail,Train,Diesel,Transport -:- Rail -:- Freight Rail -:- Train -:- Diesel,Rail transport fuel consumption,PJ,PJa,,,
+DMD,SI,T_P_Rail15,Transport,Rail,Passenger Rail,Train,Electricity,Transport -:- Rail -:- Passenger Rail -:- Train -:- Electricity,Passenger rail transport fuel consumption,PJ,PJa,,,
+
+
 sheetname: TRA_Emissions
 range: B4:I7
 filename: VT_SI_TRA_V4.xlsx
@@ -12640,26 +12640,7 @@ TRACO2,53.96,60.43,66.58,69.69,68.53,73.63
 
 
 sheetname: TRA_FuelSupply
-range: B22:K34
-filename: VT_SI_TRA_V4.xlsx
-tag: ~FI_Process
-types: Sets (object), Region (object), TechName (object), TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
-Sets,Region,TechName,TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
-*Process Set Membership,Region Name,Technology Name,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
-*,,,,,,,,
-DST,SI,FTE_TRANGA,Distribution of Transport Natural Gas,PJ,PJa,ANNUAL,,
-,SI,FTE_TRABIL,Distribution of Transport Bio Liquids,PJ,PJa,ANNUAL,,
-,SI,FTE_TRALPG,Distribution of Transport LPG,PJ,PJa,ANNUAL,,
-,SI,FTE_TRAPET,Distribution of Transport Petrol,PJ,PJa,ANNUAL,,
-,SI,FTE_TRADSL,Distribution of Transport Diesel,PJ,PJa,ANNUAL,,
-,SI,FTE_TRAJET,Distribution of Transport Aviation fuel_Kero,PJ,PJa,ANNUAL,,
-\I:,SI,FTE_TRAH2R,Distribution of Transport jet Hydrogen,PJ,PJa,DAYNITE,,
-,SI,G_ELC_T_00,Distribution of Transport electricity ,PJ,GW,DAYNITE,,
-,SI,FTE_TRAFOL,Distribution of Transport LFO,PJ,GW,ANNUAL,,
-
-
-sheetname: TRA_FuelSupply
-range: B36:N51
+range: B22:N37
 filename: VT_SI_TRA_V4.xlsx
 tag: ~FI_T
 types: TechName (object), Comm-IN (object), Comm-OUT (object), Share-I~UP (object), Share-I~UP~2021 (object), Share-I~UP~2060 (object), CAP2ACT (object), EFF (object), LIFE (object), FIXOM (object), VAROM (object), FLO_DELIV (object)
@@ -12681,22 +12662,41 @@ FTE_TRAFOL,FOL,TRAFOL,,,,,1,60,,,
 
 
 sheetname: TRA_FuelSupply
-range: B6:K18
+range: B6:O18
 filename: VT_SI_TRA_V4.xlsx
 tag: ~FI_Comm
-types: Csets (object), Region (object), CommName (object), CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
-Csets,Region,CommName,CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
-*Commodity Set Membership,Region Name,Commodity Name,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-NRG,SI,TRANGA,Transport Natural Gas,PJ,FX,ANNUAL,,
-NRG,SI,TRABIL,Transport Bio Liquids,PJ,FX,ANNUAL,,
-NRG,SI,TRALPG,Transport LPG,PJ,FX,ANNUAL,,
-NRG,SI,TRAPET,Transport Petrol,PJ,FX,ANNUAL,,
-NRG,SI,TRADSL,Transport Diesel,PJ,FX,ANNUAL,,
-NRG,SI,TRAJET,Transport Aviation fuel_Kero,PJ,FX,ANNUAL,,
-NRG,SI,TRAH2R,Transport jet Hydrogen,PJ,FX,DAYNITE,,
-NRG,SI,TRAELC,Transport electricity ,PJ,FX,DAYNITE,,ELC
-NRG,SI,TRAFOL,Transport LFO,PJ,FX,ANNUAL,,
-ENV,SI,TRACO2,Carbon dioxide from transport sector,Kt,,ANNUAL,,
+types: Csets (object), Region (object), CommName (object), * Sector (object), * Subsector (object), * Fuel/Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
+Csets,Region,CommName,* Sector,* Subsector,* Fuel/Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
+*Commodity Set Membership,Region Name,Commodity Name,,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
+NRG,SI,TRANGA,Transport,,Natural Gas,Transport -:-  -:- Natural Gas,Transport Natural Gas,PJ,FX,ANNUAL,,
+NRG,SI,TRABIL,Transport,,Bio Liquids,Transport -:-  -:- Bio Liquids,Transport Bio Liquids,PJ,FX,ANNUAL,,
+NRG,SI,TRALPG,Transport,,LPG,Transport -:-  -:- LPG,Transport LPG,PJ,FX,ANNUAL,,
+NRG,SI,TRAPET,Transport,,Petrol,Transport -:-  -:- Petrol,Transport Petrol,PJ,FX,ANNUAL,,
+NRG,SI,TRADSL,Transport,,Diesel,Transport -:-  -:- Diesel,Transport Diesel,PJ,FX,ANNUAL,,
+NRG,SI,TRAJET,Transport,,Jet Fuel,Transport -:-  -:- Jet Fuel,Transport Aviation fuel_Kero,PJ,FX,ANNUAL,,
+NRG,SI,TRAH2R,Transport,,Green Hydrogen,Transport -:-  -:- Green Hydrogen,Transport jet Hydrogen,PJ,FX,DAYNITE,,
+NRG,SI,TRAELC,Transport,,Electricity,Transport -:-  -:- Electricity,Transport electricity ,PJ,FX,DAYNITE,,ELC
+NRG,SI,TRAFOL,Transport,,Fuel Oil,Transport -:-  -:- Fuel Oil,Transport LFO,PJ,FX,ANNUAL,,
+ENV,SI,TRACO2,Transport,,CO2 emissions,Transport -:-  -:- CO2 emissions,Carbon dioxide from transport sector,Kt,,ANNUAL,,
+
+
+sheetname: TRA_FuelSupply
+range: Q6:AF18
+filename: VT_SI_TRA_V4.xlsx
+tag: ~FI_Process
+types: Sets (object), Region (object), TechName (object), * Sector (object), * Subsector (object), * Enduse (object), * Technology (object), * Fuel (object), TechDesc (object), * OLD TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
+Sets,Region,TechName,* Sector,* Subsector,* Enduse,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
+*Process Set Membership,Region Name,Technology Name,,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
+*,,,,,,,,,,,,,,
+DST,SI,FTE_TRANGA,Transport,,,,Natural Gas,Transport -:-  -:-  -:-  -:- Natural Gas,Distribution of Transport Natural Gas,PJ,PJa,ANNUAL,,
+,SI,FTE_TRABIL,Transport,,,,Bio Liquids,Transport -:-  -:-  -:-  -:- Bio Liquids,Distribution of Transport Bio Liquids,PJ,PJa,ANNUAL,,
+,SI,FTE_TRALPG,Transport,,,,LPG,Transport -:-  -:-  -:-  -:- LPG,Distribution of Transport LPG,PJ,PJa,ANNUAL,,
+,SI,FTE_TRAPET,Transport,,,,Petrol,Transport -:-  -:-  -:-  -:- Petrol,Distribution of Transport Petrol,PJ,PJa,ANNUAL,,
+,SI,FTE_TRADSL,Transport,,,,Diesel,Transport -:-  -:-  -:-  -:- Diesel,Distribution of Transport Diesel,PJ,PJa,ANNUAL,,
+,SI,FTE_TRAJET,Transport,,,,Jet Fuel,Transport -:-  -:-  -:-  -:- Jet Fuel,Distribution of Transport Aviation fuel_Kero,PJ,PJa,ANNUAL,,
+\I:,SI,FTE_TRAH2R,Transport,,,,Green Hydrogen,Transport -:-  -:-  -:-  -:- Green Hydrogen,Distribution of Transport jet Hydrogen,PJ,PJa,DAYNITE,,
+,SI,G_ELC_T_00,Transport,,,,Electricity,Transport -:-  -:-  -:-  -:- Electricity,Distribution of Transport electricity ,PJ,GW,DAYNITE,,
+,SI,FTE_TRAFOL,Transport,,,,Fuel Oil,Transport -:-  -:-  -:-  -:- Fuel Oil,Distribution of Transport LFO,PJ,GW,ANNUAL,,
 
 
 sheetname: Emi
