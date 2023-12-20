@@ -10904,7 +10904,7 @@ PLPPPR-AIR-ELC-CMPR15,INDELC,PLPPPR-AIR,,,,,0.001,0.001,21,1,25,0,,31.536,0,0.00
 
 
 sheetname: IND_PRC_COM
-range: C6:P116
+range: C6:P80
 filename: VT_SI_IND_V2.xlsx
 tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Sector (object), * Subsector (object), * Fuel/Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
@@ -10982,42 +10982,6 @@ DEM,,PLPPPR-Pump,Industry,Pulp and Paper Manufacturing,Pumping,Industry -:- Pulp
 DEM,,PLPPPR-Fan,Industry,Pulp and Paper Manufacturing,Fan,Industry -:- Pulp and Paper Manufacturing -:- Fan,Wood pulp and paper - Fans,PJ,,DAYNITE,,
 DEM,,PLPPPR-Refin,Industry,Pulp and Paper Manufacturing,Wood/Pulp and Paper Refining,Industry -:- Pulp and Paper Manufacturing -:- Wood/Pulp and Paper Refining,Wood pulp and paper - Refiners,PJ,,DAYNITE,,
 DEM,,PLPPPR-AIR,Industry,Pulp and Paper Manufacturing,Compressed Air,Industry -:- Pulp and Paper Manufacturing -:- Compressed Air,Wood pulp and paper - Compressed Air,PJ,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
-,,,,,,,,,,DAYNITE,,
 
 
 sheetname: IND_PRC_COM
@@ -11145,17 +11109,17 @@ types: TechName (object), Comm-IN (object), Comm-OUT (object), Share-I~UP~2015 (
 TechName,Comm-IN,Comm-OUT,Share-I~UP~2015,Share-I~UP~2021,Share-I~UP~0,NCAP_PASTI~2015,EFF,LIFE,EFF~2021,EFF~2060,EFF~0,VAROM,FLO_DELIV
 *Technology Name,Input Commodity,Output Commodity,Input Share,Input Share,Input Share,Existing Installed Capacity,Efficiency,Lifetime,Efficiency,Efficiency,,Fuel delivery costs,
 *Units,,,,,,,,Years,,,,MNZD/PJ,
-FTE-Industry_00,COA,INDCOA,0.89754996807823,1,,,1,100,,,,,
+FTE-INDCOA_00,COA,INDCOA,0.89754996807823,1,,,1,100,,,,,
 ,COL,,0.10245003192177,0.10245003192177,,,1,100,,,,,
-FTE-Industry_00,PET,INDPET,,,,,1,100,,,,0.92,
-FTE-Industry_00,DSL,INDDSL,1,1,5,,1,100,,,,0.92,
+FTE-INDPET_00,PET,INDPET,,,,,1,100,,,,0.92,
+FTE-INDDSL_00,DSL,INDDSL,1,1,5,,1,100,,,,0.92,
 ,DID,,1,1,5,,,,,,,,2.4
-FTE-Industry_00,LPG,INDLPG,,,,,1,100,,,,,
-FTE-Industry_00,FOL,INDFOL,,,,,1,100,,,,0.92,
-FTE-Industry_00,NGA,INDNGA,,,,,1,100,,,,0.746,
-FTE-Industry_00,GEO,INDGEO,,,,,1,100,,,,,
-FTE-Industry_00,BIG,INDBIG,,,,,1,100,,,,,
-FTE-Industry_00,WOD,INDWOD,,,,,1,100,,,,,
+FTE-INDLPG_00,LPG,INDLPG,,,,,1,100,,,,,
+FTE-INDFOL_00,FOL,INDFOL,,,,,1,100,,,,0.92,
+FTE-INDNGA_00,NGA,INDNGA,,,,,1,100,,,,0.746,
+FTE-INDGEO_00,GEO,INDGEO,,,,,1,100,,,,,
+FTE-INDBIG_00,BIG,INDBIG,,,,,1,100,,,,,
+FTE-INDWOD_00,WOD,INDWOD,,,,,1,100,,,,,
 
 
 sheetname: Sector_Fuels
@@ -11185,15 +11149,15 @@ types: Sets (object), Region (object), TechName (object), * Sector (object), * S
 Sets,Region,TechName,* Sector,* Subsector,* Enduse,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
 *Process Set Membership,Region Name,Technology Name,,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,,
-PRE,,FTE-Industry_00,Industry,,,,Coal,Industry -:-  -:-  -:-  -:- Coal,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Petrol,Industry -:-  -:-  -:-  -:- Petrol,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Diesel,Industry -:-  -:-  -:-  -:- Diesel,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,LPG,Industry -:-  -:-  -:-  -:- LPG,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Fuel Oil,Industry -:-  -:-  -:-  -:- Fuel Oil,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Natural Gas,Industry -:-  -:-  -:-  -:- Natural Gas,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Geothermal,Industry -:-  -:-  -:-  -:- Geothermal,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Biogas,Industry -:-  -:-  -:-  -:- Biogas,Existing fuel technology PJ,PJ,PJa,,,
-PRE,,FTE-Industry_00,Industry,,,,Wood,Industry -:-  -:-  -:-  -:- Wood,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDCOA_00,Industry,,,,Coal,Industry -:-  -:-  -:-  -:- Coal,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDPET_00,Industry,,,,Petrol,Industry -:-  -:-  -:-  -:- Petrol,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDDSL_00,Industry,,,,Diesel,Industry -:-  -:-  -:-  -:- Diesel,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDLPG_00,Industry,,,,LPG,Industry -:-  -:-  -:-  -:- LPG,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDFOL_00,Industry,,,,Fuel Oil,Industry -:-  -:-  -:-  -:- Fuel Oil,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDNGA_00,Industry,,,,Natural Gas,Industry -:-  -:-  -:-  -:- Natural Gas,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDGEO_00,Industry,,,,Geothermal,Industry -:-  -:-  -:-  -:- Geothermal,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDBIG_00,Industry,,,,Biogas,Industry -:-  -:-  -:-  -:- Biogas,Existing fuel technology PJ,PJ,PJa,,,
+PRE,,FTE-INDWOD_00,Industry,,,,Wood,Industry -:-  -:-  -:-  -:- Wood,Existing fuel technology PJ,PJ,PJa,,,
 
 
 sheetname: AGR
