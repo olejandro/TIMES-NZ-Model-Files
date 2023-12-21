@@ -2450,42 +2450,42 @@ types:
 
 
 sheetname: TRA_NEW
-range: C53:K85
+range: C53:Q85
 filename: SubRES_TMPL/SubRES_NewTransport-KEA.xlsx
 tag: ~FI_Process
-types: Sets (object), TechName (object), TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
-Sets,TechName,TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
-\I: Process Set Membership,Technology Name,Technology Description,Activity Unit,Capacity Unit,Timeslice Operational Level,Operational Commodity Group,Vintage Tracking
-DMD,T_P_CICEPET,light passenger vehicles - Petrol ICE - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CICEDSL,light passenger vehicles - Diesel ICE - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CHYBPET,light passenger vehicles - Petrol hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CHYBDSL,light passenger vehicles - Diesel Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CBEVELC,light passenger vehicles - Battery Electric Vehicle - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CFCH2R,light passenger vehicles - Hydrogen Fuel Cell Vehicle - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CPHEVPET,light passenger vehicles - Petrol Plug-in Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_P_CPHEVDSL,light passenger vehicles - Diesel Plug-in Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CICEPET,light commercial vehicles - Petrol ICE - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CICEDSL,light commercial vehicles - Diesel ICE - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CHYBPET,light commercial vehicles - Petrol hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CHYBDSL,light commercial vehicles - Diesel Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CBEVELC,light commercial vehicles - Battery Electric Vehicle - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CFCH2R,light commercial vehicles - Hydrogen Fuel Cell Vehicle - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CPHEVPET,light commercial vehicles - Petrol Plug-in Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_C_CPHEVDSL,light commercial vehicles - Diesel Plug-in Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
-DMD,T_P_McyICEPET,Motorcycles - Petrol Motorcycles - Motorcycles - New,BVkm,000Vehicles,,,YES
-DMD,T_P_McyBEVELC,Motorcycles - Electric motorcycles - Motorcycles - New,BVkm,000Vehicles,,,YES
-DMD,T_F_MTrICEDSL,Medium trucks - Diesel Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_MTrBEVELC,Medium trucks - Electric Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_MTrFCH2R,Medium trucks - Hydrogen Fuel Cell Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_HTrICEDSL,Heavy Trucks - Diesel Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_HTrBEVELC,Heavy Trucks - Electric Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_HTrFCH2R,Heavy Trucks - Hydrogen Fuel Cell Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_VHTICEDSL,Heavy Trucks - Diesel Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_VHTBEVELC,Heavy Trucks - Electric Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_F_VHTFCH2R,Heavy Trucks - Hydrogen Fuel Cell Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
-DMD,T_P_BusICEDSL,Bus - Diesel Bus - Bus - New,BVkm,000Vehicles,,,YES
-DMD,T_P_BusBEVELC,Bus - Electric Bus - Bus - New,BVkm,000Vehicles,,,YES
-DMD,T_P_BusFCH2R,Bus - Hydrogen Fuel cell Bus - Bus - New,BVkm,000Vehicles,,,YES
+types: Sets (object), TechName (object), * Sector (object), * Subsector (object), * Enduse (object), * Technology (object), * Fuel (object), TechDesc (object), * OLD TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
+Sets,TechName,* Sector,* Subsector,* Enduse,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
+\I: Process Set Membership,Technology Name,,,,,,,Technology Description,Activity Unit,Capacity Unit,Timeslice Operational Level,Operational Commodity Group,Vintage Tracking
+DMD,T_P_CICEPET,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Petrol,light passenger vehicles - Petrol ICE - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CICEDSL,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Diesel,light passenger vehicles - Diesel ICE - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CHYBPET,Transport,Road Transport,Car/SUV,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Hybrid Vehicle -:- Petrol,light passenger vehicles - Petrol hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CHYBDSL,Transport,Road Transport,Car/SUV,Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Hybrid Vehicle -:- Diesel,light passenger vehicles - Diesel Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CBEVELC,Transport,Road Transport,Car/SUV,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Battery Electric Vehicle -:- Electricity,light passenger vehicles - Battery Electric Vehicle - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CFCH2R,Transport,Road Transport,Car/SUV,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Car/SUV -:- Hydrogen Fuel Cell -:- Hydrogen,light passenger vehicles - Hydrogen Fuel Cell Vehicle - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CPHEVPET,Transport,Road Transport,Car/SUV,Plug-In Hybrid Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Plug-In Hybrid Vehicle -:- Electricity,light passenger vehicles - Petrol Plug-in Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_P_CPHEVDSL,Transport,Road Transport,Car/SUV,Plug-In Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Plug-In Hybrid Vehicle -:- Diesel,light passenger vehicles - Diesel Plug-in Hybrid - Car/SUV - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CICEPET,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Petrol,light commercial vehicles - Petrol ICE - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CICEDSL,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Diesel,light commercial vehicles - Diesel ICE - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CHYBPET,Transport,Road Transport,Van/Ute,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Hybrid Vehicle -:- Petrol,light commercial vehicles - Petrol hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CHYBDSL,Transport,Road Transport,Van/Ute,Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Hybrid Vehicle -:- Diesel,light commercial vehicles - Diesel Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CBEVELC,Transport,Road Transport,Van/Ute,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Van/Ute -:- Battery Electric Vehicle -:- Electricity,light commercial vehicles - Battery Electric Vehicle - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CFCH2R,Transport,Road Transport,Van/Ute,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Van/Ute -:- Hydrogen Fuel Cell -:- Hydrogen,light commercial vehicles - Hydrogen Fuel Cell Vehicle - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CPHEVPET,Transport,Road Transport,Van/Ute,Plug-In Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Plug-In Hybrid Vehicle -:- Petrol,light commercial vehicles - Petrol Plug-in Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_C_CPHEVDSL,Transport,Road Transport,Van/Ute,Plug-In Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Plug-In Hybrid Vehicle -:- Diesel,light commercial vehicles - Diesel Plug-in Hybrid - Van/Ute - New,BVkm,000Vehicles,,,YES
+DMD,T_P_McyICEPET,Transport,Road Transport,Motorcycles,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Motorcycles -:- Internal Combustion Engine -:- Petrol,Motorcycles - Petrol Motorcycles - Motorcycles - New,BVkm,000Vehicles,,,YES
+DMD,T_P_McyBEVELC,Transport,Road Transport,Motorcycles,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Motorcycles -:- Battery Electric Vehicle -:- Electricity,Motorcycles - Electric motorcycles - Motorcycles - New,BVkm,000Vehicles,,,YES
+DMD,T_F_MTrICEDSL,Transport,Road Transport,Medium Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Medium Truck -:- Internal Combustion Engine -:- Diesel,Medium trucks - Diesel Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_MTrBEVELC,Transport,Road Transport,Medium Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Medium Truck -:- Battery Electric Vehicle -:- Electricity,Medium trucks - Electric Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_MTrFCH2R,Transport,Road Transport,Medium Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Medium Truck -:- Hydrogen Fuel Cell -:- Hydrogen,Medium trucks - Hydrogen Fuel Cell Medium Truck - Medium Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_HTrICEDSL,Transport,Road Transport,Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Heavy Truck -:- Internal Combustion Engine -:- Diesel,Heavy Trucks - Diesel Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_HTrBEVELC,Transport,Road Transport,Heavy Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Heavy Truck -:- Battery Electric Vehicle -:- Electricity,Heavy Trucks - Electric Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_HTrFCH2R,Transport,Road Transport,Heavy Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Heavy Truck -:- Hydrogen Fuel Cell -:- Hydrogen,Heavy Trucks - Hydrogen Fuel Cell Heavy Truck - Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_VHTICEDSL,Transport,Road Transport,Very Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Very Heavy Truck -:- Internal Combustion Engine -:- Diesel,Heavy Trucks - Diesel Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_VHTBEVELC,Transport,Road Transport,Very Heavy Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Very Heavy Truck -:- Battery Electric Vehicle -:- Electricity,Heavy Trucks - Electric Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_F_VHTFCH2R,Transport,Road Transport,Very Heavy Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Very Heavy Truck -:- Hydrogen Fuel Cell -:- Hydrogen,Heavy Trucks - Hydrogen Fuel Cell Very Heavy Truck - Very Heavy Truck - New,BVkm,000Vehicles,,,YES
+DMD,T_P_BusICEDSL,Transport,Road Transport,Bus,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Bus -:- Internal Combustion Engine -:- Diesel,Bus - Diesel Bus - Bus - New,BVkm,000Vehicles,,,YES
+DMD,T_P_BusBEVELC,Transport,Road Transport,Bus,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Bus -:- Battery Electric Vehicle -:- Electricity,Bus - Electric Bus - Bus - New,BVkm,000Vehicles,,,YES
+DMD,T_P_BusFCH2R,Transport,Road Transport,Bus,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Bus -:- Hydrogen Fuel Cell -:- Hydrogen,Bus - Hydrogen Fuel cell Bus - Bus - New,BVkm,000Vehicles,,,YES
 
 
 sheetname: TRA_NEW
@@ -2536,42 +2536,42 @@ T_P_BusFCH2R,FC,TRAH2R,T_P_Bus,2020,0.161290322580645,0.175746924428822,0.205338
 
 
 sheetname: TRA_NEW
-range: C53:K85
+range: C53:Q85
 filename: SubRES_TMPL/SubRES_NewTransport-TUI.xlsx
 tag: ~FI_Process
-types: Sets (object), TechName (object), TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
-Sets,TechName,TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
-\I: Process Set Membership,Technology Name,Technology Description,Activity Unit,Capacity Unit,Timeslice Operational Level,Operational Commodity Group,Vintage Tracking
-DMD,T_P_CICEPET,light passenger vehicles - Petrol ICE - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CICEDSL,light passenger vehicles - Diesel ICE - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CHYBPET,light passenger vehicles - Petrol hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CHYBDSL,light passenger vehicles - Diesel Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CBEVELC,light passenger vehicles - Battery Electric Vehicle - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CFCH2R,light passenger vehicles - Hydrogen Fuel Cell Vehicle - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CPHEVPET,light passenger vehicles - Petrol Plug-in Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_P_CPHEVDSL,light passenger vehicles - Diesel Plug-in Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
-DMD,T_C_CICEPET,light commercial vehicles - Petrol ICE - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CICEDSL,light commercial vehicles - Diesel ICE - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CHYBPET,light commercial vehicles - Petrol hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CHYBDSL,light commercial vehicles - Diesel Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CBEVELC,light commercial vehicles - Battery Electric Vehicle - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CFCH2R,light commercial vehicles - Hydrogen Fuel Cell Vehicle - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CPHEVPET,light commercial vehicles - Petrol Plug-in Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_C_CPHEVDSL,light commercial vehicles - Diesel Plug-in Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
-DMD,T_P_McyICEPET,Motorcycles - Petrol motorcycles - Motorcycles - New,BVkm,000vehicles,,,YES
-DMD,T_P_McyBEVELC,Motorcycles - Electric motorcycles - Motorcycles - New,BVkm,000vehicles,,,YES
-DMD,T_F_MTrICEDSL,Medium trucks - Diesel Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_MTrBEVELC,Medium trucks - Electric Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_MTrFCH2R,Medium trucks - Hydrogen Fuel Cell Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_HTrICEDSL,Heavy Trucks - Diesel Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_HTrBEVELC,Heavy Trucks - Electric Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_HTrFCH2R,Heavy Trucks - Hydrogen Fuel Cell Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
-DMD,T_F_VHTICEDSL,Aviation - International - International Aviation - New,BVkm,000Vehicles,,,YES
-DMD,T_F_VHTBEVELC,Aviation - Passenger diesel - Passenger Rail - New,BVkm,000Vehicles,,,YES
-DMD,T_F_VHTFCH2R,Aviation - Passenger electric - Passenger Rail - New,BVkm,000Vehicles,,,YES
-DMD,T_P_BusICEDSL,Bus - Diesel Bus - Bus - New,BVkm,000vehicles,,,YES
-DMD,T_P_BusBEVELC,Bus - Electric Bus - Bus - New,BVkm,000vehicles,,,YES
-DMD,T_P_BusFCH2R,Bus - Hydrogen Fuel cell Bus - Bus - New,BVkm,000vehicles,,,YES
+types: Sets (object), TechName (object), * Sector (object), * Subsector (object), * Enduse (object), * Technology (object), * Fuel (object), TechDesc (object), * OLD TechDesc (object), Tact (object), Tcap (object), Tslvl (object), PrimaryCG (object), Vintage (object)
+Sets,TechName,* Sector,* Subsector,* Enduse,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
+\I: Process Set Membership,Technology Name,,,,,,,Technology Description,Activity Unit,Capacity Unit,Timeslice Operational Level,Operational Commodity Group,Vintage Tracking
+DMD,T_P_CICEPET,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Petrol,light passenger vehicles - Petrol ICE - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CICEDSL,Transport,Road Transport,Car/SUV,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Internal Combustion Engine -:- Diesel,light passenger vehicles - Diesel ICE - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CHYBPET,Transport,Road Transport,Car/SUV,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Car/SUV -:- Hybrid Vehicle -:- Petrol,light passenger vehicles - Petrol hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CHYBDSL,Transport,Road Transport,Car/SUV,Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Hybrid Vehicle -:- Diesel,light passenger vehicles - Diesel Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CBEVELC,Transport,Road Transport,Car/SUV,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Battery Electric Vehicle -:- Electricity,light passenger vehicles - Battery Electric Vehicle - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CFCH2R,Transport,Road Transport,Car/SUV,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Car/SUV -:- Hydrogen Fuel Cell -:- Hydrogen,light passenger vehicles - Hydrogen Fuel Cell Vehicle - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CPHEVPET,Transport,Road Transport,Car/SUV,Plug-In Hybrid Vehicle,Electricity,Transport -:- Road Transport -:- Car/SUV -:- Plug-In Hybrid Vehicle -:- Electricity,light passenger vehicles - Petrol Plug-in Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_P_CPHEVDSL,Transport,Road Transport,Car/SUV,Plug-In Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Car/SUV -:- Plug-In Hybrid Vehicle -:- Diesel,light passenger vehicles - Diesel Plug-in Hybrid - Car/SUV - New,BVkm,000vehicles,,,YES
+DMD,T_C_CICEPET,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Petrol,light commercial vehicles - Petrol ICE - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CICEDSL,Transport,Road Transport,Van/Ute,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Internal Combustion Engine -:- Diesel,light commercial vehicles - Diesel ICE - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CHYBPET,Transport,Road Transport,Van/Ute,Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Hybrid Vehicle -:- Petrol,light commercial vehicles - Petrol hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CHYBDSL,Transport,Road Transport,Van/Ute,Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Hybrid Vehicle -:- Diesel,light commercial vehicles - Diesel Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CBEVELC,Transport,Road Transport,Van/Ute,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Van/Ute -:- Battery Electric Vehicle -:- Electricity,light commercial vehicles - Battery Electric Vehicle - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CFCH2R,Transport,Road Transport,Van/Ute,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Van/Ute -:- Hydrogen Fuel Cell -:- Hydrogen,light commercial vehicles - Hydrogen Fuel Cell Vehicle - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CPHEVPET,Transport,Road Transport,Van/Ute,Plug-In Hybrid Vehicle,Petrol,Transport -:- Road Transport -:- Van/Ute -:- Plug-In Hybrid Vehicle -:- Petrol,light commercial vehicles - Petrol Plug-in Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_C_CPHEVDSL,Transport,Road Transport,Van/Ute,Plug-In Hybrid Vehicle,Diesel,Transport -:- Road Transport -:- Van/Ute -:- Plug-In Hybrid Vehicle -:- Diesel,light commercial vehicles - Diesel Plug-in Hybrid - Van/Ute - New,BVkm,000vehicles,,,YES
+DMD,T_P_McyICEPET,Transport,Road Transport,Motorcycles,Internal Combustion Engine,Petrol,Transport -:- Road Transport -:- Motorcycles -:- Internal Combustion Engine -:- Petrol,Motorcycles - Petrol motorcycles - Motorcycles - New,BVkm,000vehicles,,,YES
+DMD,T_P_McyBEVELC,Transport,Road Transport,Motorcycles,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Motorcycles -:- Battery Electric Vehicle -:- Electricity,Motorcycles - Electric motorcycles - Motorcycles - New,BVkm,000vehicles,,,YES
+DMD,T_F_MTrICEDSL,Transport,Road Transport,Medium Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Medium Truck -:- Internal Combustion Engine -:- Diesel,Medium trucks - Diesel Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_MTrBEVELC,Transport,Road Transport,Medium Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Medium Truck -:- Battery Electric Vehicle -:- Electricity,Medium trucks - Electric Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_MTrFCH2R,Transport,Road Transport,Medium Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Medium Truck -:- Hydrogen Fuel Cell -:- Hydrogen,Medium trucks - Hydrogen Fuel Cell Medium Truck - Medium Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_HTrICEDSL,Transport,Road Transport,Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Heavy Truck -:- Internal Combustion Engine -:- Diesel,Heavy Trucks - Diesel Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_HTrBEVELC,Transport,Road Transport,Heavy Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Heavy Truck -:- Battery Electric Vehicle -:- Electricity,Heavy Trucks - Electric Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_HTrFCH2R,Transport,Road Transport,Heavy Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Heavy Truck -:- Hydrogen Fuel Cell -:- Hydrogen,Heavy Trucks - Hydrogen Fuel Cell Heavy Truck - Heavy Truck - New,BVkm,000vehicles,,,YES
+DMD,T_F_VHTICEDSL,Transport,Road Transport,Very Heavy Truck,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Very Heavy Truck -:- Internal Combustion Engine -:- Diesel,#REF!,BVkm,000Vehicles,,,YES
+DMD,T_F_VHTBEVELC,Transport,Road Transport,Very Heavy Truck,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Very Heavy Truck -:- Battery Electric Vehicle -:- Electricity,#REF!,BVkm,000Vehicles,,,YES
+DMD,T_F_VHTFCH2R,Transport,Road Transport,Very Heavy Truck,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Very Heavy Truck -:- Hydrogen Fuel Cell -:- Hydrogen,#REF!,BVkm,000Vehicles,,,YES
+DMD,T_P_BusICEDSL,Transport,Road Transport,Bus,Internal Combustion Engine,Diesel,Transport -:- Road Transport -:- Bus -:- Internal Combustion Engine -:- Diesel,Bus - Diesel Bus - Bus - New,BVkm,000vehicles,,,YES
+DMD,T_P_BusBEVELC,Transport,Road Transport,Bus,Battery Electric Vehicle,Electricity,Transport -:- Road Transport -:- Bus -:- Battery Electric Vehicle -:- Electricity,Bus - Electric Bus - Bus - New,BVkm,000vehicles,,,YES
+DMD,T_P_BusFCH2R,Transport,Road Transport,Bus,Hydrogen Fuel Cell,Hydrogen,Transport -:- Road Transport -:- Bus -:- Hydrogen Fuel Cell -:- Hydrogen,Bus - Hydrogen Fuel cell Bus - Bus - New,BVkm,000vehicles,,,YES
 
 
 sheetname: TRA_NEW
