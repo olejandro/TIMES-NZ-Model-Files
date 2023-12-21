@@ -649,7 +649,7 @@ DMD,,AFISH-BOAT-HYBBOAT-DSL,Agriculture,Fishing,Boat ,Fishing Boat (Hybrid),Dies
 \I:,,AFISH-BOAT--ELC,,,,,,,"/I: Fishing, Hunting and Trapping-Hybrid Electric Boat",PJ,GW,,,
 \I:,,AFISH-BOAT--H2R,,,,,,,"/I: Fishing, Hunting and Trapping-Hydrogen Boat",PJ,GW,,,
 DMD,,AFISH-RFGR-RF-ELC,Agriculture,Fishing,Refrigeration,Refrigerator,Electricity,Agriculture -:- Fishing -:- Refrigeration -:- Refrigerator -:- Electricity,"Fishing, Hunting and Trapping-Refrigeration",PJ,GW,,,
-DMD,,AFISH-LIG--ELC,Agriculture,Fishing,Lighting,Lights (General),Electricity,Agriculture -:- Dairy Cattle Farming -:- Milking Machine -:- Vacuum Pump -:- Electricity,"Fishing, Hunting and Trapping-LED",PJ,GW,,,
+DMD,,AFISH-LIG--ELC,Agriculture,Fishing,Lighting,Lights (General),Electricity,Agriculture -:- Fishing -:- Lighting -:- Lights (General) -:- Electricity,"Fishing, Hunting and Trapping-LED",PJ,GW,,,
 
 
 sheetname: AF_Trans
@@ -836,7 +836,7 @@ DMD,,AFISH-BOAT-HYBBOAT-DSL,Agriculture,Fishing,Boat ,Fishing Boat (Hybrid),Dies
 \I:,,AFISH-BOAT--ELC,,,,,,,"\I: Fishing, Hunting and Trapping-Hybrid Electric Boat",PJ,GW,,,
 \I:,,AFISH-BOAT--H2R,,,,,,,"\I: Fishing, Hunting and Trapping-Hydrogen Boat",PJ,GW,,,
 DMD,,AFISH-RFGR-RF-ELC,Agriculture,Fishing,Refrigeration,Refrigerator,Electricity,Agriculture -:- Fishing -:- Refrigeration -:- Refrigerator -:- Electricity,"Fishing, Hunting and Trapping-Refrigeration",PJ,GW,,,
-DMD,,AFISH-LIG--ELC,Agriculture,Fishing,Lighting,Lights (General),Electricity,Agriculture -:- Dairy Cattle Farming -:- Milking Machine -:- Vacuum Pump -:- Electricity,"Fishing, Hunting and Trapping-LED",PJ,GW,,,
+DMD,,AFISH-LIG--ELC,Agriculture,Fishing,Lighting,Lights (General),Electricity,Agriculture -:- Fishing -:- Lighting -:- Lights (General) -:- Electricity,"Fishing, Hunting and Trapping-LED",PJ,GW,,,
 
 
 sheetname: AF_Trans
