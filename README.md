@@ -83,7 +83,6 @@ If you're new to Git and GitHub, here's a simple guide on how to get started.
 ### Prerequisites
 
 - Make sure you have Git installed on your machine. You can download it from here: https://git-scm.com/downloads.
-- If you prefer a graphical user interface, GitHub Desktop is an option, but the use of command-line tools is preferred in order to ensure repeatability. If you want to use GitHub Desktop, you can download it here: https://desktop.github.com/.
 
 ### Steps
 
@@ -95,18 +94,20 @@ First, you'll need to make a copy of this repository on your local machine. This
 git clone git@github.com:EECA-NZ/TIMES-NZ-Model-Files.git
 ```
 
-If you're using GitHub Desktop, you can clone the repository by selecting "File -> Clone Repository" from the menu, and then select the repository from the list.
-
 #### 2. Create a Branch
 
 Before making changes, it's best practice to create a new branch. This keeps your changes isolated until they're ready to be merged into the main branch. Here's how you can do it:
 
 Command line:
 ```PowerShell
+git checkout main
+git pull
 git checkout -b <your-branch-name>
 ```
-
-GitHub Desktop: Select "Branch -> New Branch" from the menu, and enter your branch name.
+The first two commands ensure you are branching from the head of the main branch. To get them to work, you may need to discard any local changes that you don't need. You can do this by running
+```PowerShell
+git checkout <local-file-that-has-changes-to-discard>
+```
 
 #### 3. Make Your Changes
 
@@ -124,8 +125,6 @@ This will also need to be done when there are updates to the Dockerfile or `requ
 ```PowerShell
 docker run -it --rm --name my_times_reader -v ${PWD}/TIMES-NZ:/usr/src/app/TIMES-NZ times_excel_reader
 ```
-
-Then commit changes that have been made by the script to `TIMES-NZ/raw_table_summary/raw_tables.txt`, alongside your changes to the excel workbooks. These changes will be visible if you run `git diff` before committing.
 
 **Note:**
 
@@ -146,8 +145,7 @@ git add [specific changed file or files related to commit]
 # Commit the changes
 git commit -m "Your descriptive commit message"
 ```
-
-GitHub Desktop: In the Changes tab, write a commit message summarizing your changes and click "Commit to [branch name]".
+If you have changed the TIMES configuration files, one of the files you commit should be `TIMES-NZ/raw_table_summary/raw_tables.txt`. 
 
 #### 6. Push Your Changes
 
@@ -157,8 +155,6 @@ Command line:
 ```PowerShell
 git push --set-upstream origin <your-branch-name>
 ```
-
-GitHub Desktop: Click the "Push origin" button in the toolbar.
 
 #### 7. Create a Pull Request
 
