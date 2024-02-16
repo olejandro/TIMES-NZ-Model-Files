@@ -3,7 +3,7 @@
 ## Excel Model Configuration Files for TIMES-NZ
 
 This repository houses the Excel files defining the TIMES-NZ (The Integrated MARKAL-EFOM System - New Zealand) energy system model configuration. It is intended for use by researchers and analysts working with energy models in New Zealand.
-* For a guide on getting started with the TIMES-NZ model, refer to the [TIMES-NZ-internal-guide-EECA](https://github.com/EECA-NZ/TIMES-NZ-internal-guide-EEC) repository.
+* For a guide on getting started with the TIMES-NZ model, refer to the [TIMES-NZ-internal-guide-EECA](https://github.com/EECA-NZ/TIMES-NZ-internal-guide-EECA) repository.
 * For detailed documentation on the workbooks and their contents, refer to the structured documentation in the [docs](docs/README.md) directory.
 
 ## Integrated Workflow Across Repositories
