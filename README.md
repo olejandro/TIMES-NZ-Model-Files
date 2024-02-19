@@ -21,11 +21,12 @@ The TIMES-NZ project is divided across three main repositories, each serving a d
 
 #### Step 1: Model Configuration and Release Tagging
 - Begin by configuring the TIMES-NZ model in the TIMES-NZ-Model-Files repository, and using VEDA to run the model. Work is done in a development branch and merged to the main branch after review - i.e. we follow the standard [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow).
-- When ready to release a new version of the model, name your scenarios to include the release tag (e.g., kea-v2_1_2).
+- When ready to release a new version of the model, name your scenarios to include the release tag (e.g., For example, use a naming convention like kea-v2_1_2 where kea could be an identifier for the scenario set, and v2_1_2 indicates the version number).
 - Once the configuration is complete and scenarios are named, commit your changes and tag the release (e.g., v2.1.2).
+Release tagging allows users and collaborators to easily identify and revert to specific versions of the model.
 
 #### Step 2: Scenario Execution with GAMS
-- Move to the TIMES-NZ-GAMS-Files repository.
+- Move to the TIMES-NZ-GAMS-Files repository. Ensure that your local environment is set up correctly with GAMS installed, including a valid license. Verify that the version of GAMS you're using is compatible with the model files.
 - Fetch the GAMS 'dd' files and the '.run' file associated with the scenario using the `get_from_veda.ps1` PowerShell script.
 - Run the GAMS solver using the `run_times_scenario.ps1` PowerShell script, and the output files will be generated.
 
@@ -37,10 +38,17 @@ $times_nz_visualization_local_repo = "C:\Users\$env:USERNAME\git\TIMES-NZ-Visual
 $scenario='tui-v2_1_2'
 cp $times_nz_gams_files_local_repo\$scenario\$scenario.vd $times_nz_visualization_local_repo\data_cleaning
 ```
-- Run the data extraction script in the `data_cleaning` subdirectory to process the output and generate a file ready for visualization (e.g., tui-v2_1_2.rda).
+- Ensure that the file paths are correctly set in the script to avoid any file not found errors.
+
+- Run the data extraction script in the `data_cleaning` subdirectory to process the output and generate a file ready for visualization (.g., to process a scenario named tui-v2_1_2, you might run a script that generates a file named tui-v2_1_2.rda).
+- After running the extraction script, it's a good practice to verify the integrity of the generated data file. Check for any inconsistencies or missing data that might impact the accuracy of your visualizations.
 
 #### Step 4: Visualization with RShiny
 - Launch the RShiny application to visualize the scenario results interactively.
+- Navigate to the directory where the RShiny application files for TIMES-NZ are stored. This should be within your local copy of the TIMES-NZ-Visualisation repository.
+- Ensure that you have R and the Shiny package installed on your machine. If not, you can install them from the Comprehensive R Archive Network (CRAN).
+- Open an R console and set the working directory to the location of the RShiny application files.
+- Run the RShiny application by executing the app script, usually with a command like `shiny::runApp()`.
 
 ### Additional Details
 For more specific instructions, including the commands and scripts to be used at each step, please refer to the README files in the respective repositories:
@@ -94,6 +102,15 @@ First, you'll need to make a copy of this repository on your local machine. This
 ```PowerShell
 git clone git@github.com:EECA-NZ/TIMES-NZ-Model-Files.git
 ```
+or
+```PowerShell
+git clone https://github.com/EECA-NZ/TIMES-NZ-Model-Files.git
+```
+
+After the clone, you can list the tags with `git tag -l` and then checkout a specific tag:
+```PowerShell
+git checkout tags/<tag_name>
+```
 
 #### 2. Create a Branch
 
@@ -112,7 +129,7 @@ git checkout <local-file-that-has-changes-to-discard>
 
 #### 3. Make Your Changes
 
-Now you can start making changes to the code. You can create new files, modify existing ones, and delete what you don't need.
+Now you can start making changes to the code. You can create new files, modify existing ones, and delete what you don't need. Keep your changes focused and related to a single feature or fix.
 
 #### 4. Document Your Changes
 
@@ -162,6 +179,15 @@ git push --set-upstream origin <your-branch-name>
 Finally, you can ask for your changes to be merged into the main branch by creating a "pull request". 
 
 Go to the repository on GitHub, and click on the "Pull request" button. Select your branch from the dropdown, write a brief description of your changes, and click "Create pull request".
+
+#### 8. Pull latest changes
+
+Incorporates changes from a remote repository into the current branch. If the current branch is behind the remote, then by default it will fast-forward the current branch to match the remote. 
+
+Command line:
+```PowerShell
+git pull
+```
 
 ---
 
