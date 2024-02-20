@@ -1,6 +1,8 @@
-## Configuring a Windows Development Environment for TIMES-NZ
+# Configuring a Windows Development Environment for TIMES-NZ
 
-This guide provides instructions for setting up a Windows development environment for TIMES-NZ. It includes the following steps:
+## Process Overview
+
+This guide provides instructions for setting up a Windows development environment for TIMES-NZ. You will require admin access to your laptop to work through the process, or you will need to involve a member of ICT. The guide includes the following steps:
 1. Install Anaconda
 2. Install Chocolatey
 3. Install Git for Windows and Unix-like Utilities with Chocolatey
