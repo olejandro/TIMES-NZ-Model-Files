@@ -1,6 +1,8 @@
-## Configuring a Windows Development Environment for TIMES-NZ
+# Configuring a Windows Development Environment for TIMES-NZ
 
-This guide provides instructions for setting up a Windows development environment for TIMES-NZ. It includes the following steps:
+## Process Overview
+
+This guide provides instructions for setting up a Windows development environment for TIMES-NZ. You will require admin access to your laptop to work through the process, or you will need to involve a member of ICT. The guide includes the following steps:
 1. Install Anaconda
 2. Install Chocolatey
 3. Install Git for Windows and Unix-like Utilities with Chocolatey
@@ -94,8 +96,9 @@ This will probably require you to start Docker Desktop, in order to start the Do
 
 First confirm that you have an SSH key by running the following command in PowerShell:
 ```powershell
-ls -la ~/.ssh
+ls -la C:/Users/<USER>/.ssh
 ```
+where <USER> is your Windows username
 
 If you don't have an SSH key, generate one by running the following command in PowerShell:
 ```powershell
@@ -104,7 +107,7 @@ ssh-keygen -t rsa -b 4096
 
 Copy the SSH key to the clipboard by running the following command in PowerShell:
 ```powershell
-cat ~/.ssh/id_rsa.pub | clip
+cat C:/Users/<USER>/.ssh/id_rsa.pub | clip
 ```
 
 Navigate to your GitHub account settings and click on "SSH and GPG keys" in the left-hand menu. Click on "New SSH key" and paste the key into the "Key" field. Click "Add SSH key".
