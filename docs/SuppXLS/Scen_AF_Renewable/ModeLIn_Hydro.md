@@ -1,12 +1,28 @@
 [Back to Scen_AF_Renewable.xlsx](README.md)
 
-# Sheet: ModeLIn_Hydro
+# 'ModeLIn_Hydro' sheet in Scen_AF_Renewable.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Hydro availability factors
 
+#### Table definition: ~TFM_INS
+- **Range**: C34:K59
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
+
+#### Table definition: ~TFM_INS
+- **Range**: C6:K31
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
+
+#### Table definition: ~TFM_INS
+- **Range**: N6:V15
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
+
+#### Table definition: ~TFM_INS
+- **Range**: O34:W39
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
+
+#### Table definition: ~TFM_INS
 - **Range**: Y6:AG11
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, LimType, Attribute, Year, NI, SI, Pset_Set, Pset_PN
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
 

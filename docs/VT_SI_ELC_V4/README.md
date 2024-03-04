@@ -2,11 +2,9 @@
 
 [Back to Index](../README.md)
 
-# VT_SI_ELC_V4.xlsx
-
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+South Island Electricity Sector Base Year
 
 - [Demand and Distribution](Demand%20and%20Distribution.md) - Overview of the 'Demand and Distribution' sheet.
 - [Emissions](Emissions.md) - Overview of the 'Emissions' sheet.

@@ -1,12 +1,12 @@
 [Back to Scen_AF_Renewable.xlsx](README.md)
 
-# Sheet: Extrapol_AF
+# 'Extrapol_AF' sheet in Scen_AF_Renewable.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Extrapolation table
 
+#### Table definition: ~TFM_INS
 - **Range**: C5:K8
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, LimType, Attribute, Year, NI, SI, Pset_Set, Pset_PN
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'NI', 'SI', 'Pset_Set', 'Pset_PN'
 

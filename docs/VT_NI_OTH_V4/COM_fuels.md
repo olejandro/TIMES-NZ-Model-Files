@@ -1,12 +1,12 @@
 [Back to VT_NI_OTH_V4.xlsx](README.md)
 
-# Sheet: COM_fuels
+# 'COM_fuels' sheet in VT_NI_OTH_V4.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
 (TODO: Overview of the sheet. Units used, sources of data, etc.)
 
+#### Table definition: ~FI_T
 - **Range**: D3:N17
-- **Tags**: ~FI_T
-- **Columns**: TechName, Comm-IN, Comm-OUT, Share-I~UP, STOCK, EFF, LIFE, INVCOST, FIXOM, VAROM
+- **Columns**: 'TechName', 'Comm-IN', 'Comm-OUT', 'Share-I\~UP', 'STOCK', 'EFF', 'LIFE', 'INVCOST', 'FIXOM', 'VAROM'
 

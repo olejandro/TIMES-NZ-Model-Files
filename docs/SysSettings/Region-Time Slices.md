@@ -1,12 +1,16 @@
 [Back to SysSettings.xlsx](README.md)
 
-# Sheet: Region-Time Slices
+# 'Region-Time Slices' sheet in SysSettings.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Timeslice definitions
 
+#### Table definition: ~BookRegions_Map
+- **Range**: B4:D7
+- **Columns**: 'BookName', 'Region'
+
+#### Table definition: ~TimeSlices
 - **Range**: E4:H9
-- **Tags**: ~TimeSlices
-- **Columns**: Season, Weekly, DayNite
+- **Columns**: 'Season', 'Weekly', 'DayNite'
 

@@ -1,12 +1,12 @@
 [Back to Scen_Cohesive.xlsx](README.md)
 
-# Sheet: H2_costs
+# 'H2_costs' sheet in Scen_Cohesive.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Hydrogen electrolyser costs
 
+#### Table definition: ~TFM_UPD
 - **Range**: C4:L9
-- **Tags**: ~TFM_UPD
-- **Columns**: TimeSlice, LimType, Attribute, Pset_PN, Pset_CI, Cset_CN, Pset_set, Year, AllRegions
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Pset_PN', 'Pset_CI', 'Cset_CN', 'Pset_set', 'Year', 'AllRegions'
 

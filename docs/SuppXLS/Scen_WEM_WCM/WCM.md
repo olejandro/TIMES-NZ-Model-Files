@@ -1,12 +1,12 @@
 [Back to Scen_WEM_WCM.xlsx](README.md)
 
-# Sheet: WCM
+# 'WCM' sheet in Scen_WEM_WCM.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Peaker availability
 
+#### Table definition: ~TFM_INS
 - **Range**: B3:S9
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, LimType, Attribute, Year, Attrib_Cond, Val_Cond, AllRegions, NI, SI, Pset_Set, Pset_PN, Pset_PD, Pset_CI, Pset_CO, Cset_Set, Cset_CN, Cset_CD
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'Year', 'Attrib_Cond', 'Val_Cond', 'AllRegions', 'NI', 'SI', 'Pset_Set', 'Pset_PN', 'Pset_PD', 'Pset_CI', 'Pset_CO', 'Cset_Set', 'Cset_CN', 'Cset_CD'
 

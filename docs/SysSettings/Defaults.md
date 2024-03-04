@@ -1,12 +1,16 @@
 [Back to SysSettings.xlsx](README.md)
 
-# Sheet: Defaults
+# 'Defaults' sheet in SysSettings.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Default units
 
+#### Table definition: ~Currencies
+- **Range**: B3:C5
+- **Columns**: 'Currency'
+
+#### Table definition: ~DefUnits
 - **Range**: D3:J7
-- **Tags**: ~DefUnits
-- **Columns**: Option, PRI, ELC, IND, RCA, TRA
+- **Columns**: 'Option', 'PRI', 'ELC', 'IND', 'RCA', 'TRA'
 

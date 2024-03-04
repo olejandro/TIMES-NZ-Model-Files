@@ -1,12 +1,12 @@
 [Back to SysSettings.xlsx](README.md)
 
-# Sheet: Constants
+# 'Constants' sheet in SysSettings.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Discount rate and timeslice length
 
+#### Table definition: ~TFM_INS
 - **Range**: B5:I32
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, LimType, Attribute, AllRegions, NI, SI, Cset_CN
+- **Columns**: 'TimeSlice', 'LimType', 'Attribute', 'AllRegions', 'NI', 'SI', 'Cset_CN'
 

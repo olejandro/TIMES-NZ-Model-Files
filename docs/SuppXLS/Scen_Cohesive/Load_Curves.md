@@ -1,12 +1,12 @@
 [Back to Scen_Cohesive.xlsx](README.md)
 
-# Sheet: Load_Curves
+# 'Load_Curves' sheet in Scen_Cohesive.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Transport vehicle charging load curves
 
+#### Table definition: ~TFM_INS
 - **Range**: E3:L28
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, Attribute, Cset_CN, Cset_SET, Year, NI, SI
+- **Columns**: 'TimeSlice', 'Attribute', 'Cset_CN', 'Cset_SET', 'Year', 'NI', 'SI'
 

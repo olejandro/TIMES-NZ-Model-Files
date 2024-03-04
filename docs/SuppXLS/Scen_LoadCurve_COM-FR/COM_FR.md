@@ -1,12 +1,12 @@
 [Back to Scen_LoadCurve_COM-FR.xlsx](README.md)
 
-# Sheet: COM_FR
+# 'COM_FR' sheet in Scen_LoadCurve_COM-FR.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
 (TODO: Overview of the sheet. Units used, sources of data, etc.)
 
+#### Table definition: ~TFM_INS
 - **Range**: M4:T557
-- **Tags**: ~TFM_INS
-- **Columns**: TimeSlice, Attribute, Cset_CN, Cset_SET, Year, NI, SI
+- **Columns**: 'TimeSlice', 'Attribute', 'Cset_CN', 'Cset_SET', 'Year', 'NI', 'SI'
 

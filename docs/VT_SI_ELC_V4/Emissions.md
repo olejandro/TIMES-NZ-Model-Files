@@ -1,12 +1,12 @@
 [Back to VT_SI_ELC_V4.xlsx](README.md)
 
-# Sheet: Emissions
+# 'Emissions' sheet in VT_SI_ELC_V4.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Electricty emissions factors
 
+#### Table definition: ~COMEMI
 - **Range**: B6:J9
-- **Tags**: ~COMEMI
-- **Columns**: CommName, ELCCOA, ELCCOL, ELCOIL, ELCNGA, ELCBIL, ELCBIG, ELCWOD
+- **Columns**: 'CommName', 'ELCCOA', 'ELCCOL', 'ELCOIL', 'ELCNGA', 'ELCBIL', 'ELCBIG', 'ELCWOD'
 

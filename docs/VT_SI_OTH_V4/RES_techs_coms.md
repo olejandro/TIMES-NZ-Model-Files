@@ -1,12 +1,16 @@
 [Back to VT_SI_OTH_V4.xlsx](README.md)
 
-# Sheet: RES_techs_coms
+# 'RES_techs_coms' sheet in VT_SI_OTH_V4.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
 (TODO: Overview of the sheet. Units used, sources of data, etc.)
 
+#### Table definition: ~FI_Comm
+- **Range**: B7:N41
+- **Columns**: 'Csets', 'CommName', '*', '*', '*', 'CommDesc', '*', 'Unit', 'LimType', 'CTSLvl', 'PeakTS', 'Ctype'
+
+#### Table definition: ~FI_Process
 - **Range**: O7:AC64
-- **Tags**: ~FI_Process
-- **Columns**: Sets, TechName, *, *, *, *, *, TechDesc, *, Tact, Tcap, Tslvl, PrimaryCG, Vintage
+- **Columns**: 'Sets', 'TechName', '*', '*', '*', '*', '*', 'TechDesc', '*', 'Tact', 'Tcap', 'Tslvl', 'PrimaryCG', 'Vintage'
 

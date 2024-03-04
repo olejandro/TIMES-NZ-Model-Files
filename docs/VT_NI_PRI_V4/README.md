@@ -2,11 +2,9 @@
 
 [Back to Index](../README.md)
 
-# VT_NI_PRI_V4.xlsx
-
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+North Island Primary Fuel Supply
 
 - [Con_REF](Con_REF.md) - Overview of the 'Con_REF' sheet.
 - [Pri_BIO](Pri_BIO.md) - Overview of the 'Pri_BIO' sheet.

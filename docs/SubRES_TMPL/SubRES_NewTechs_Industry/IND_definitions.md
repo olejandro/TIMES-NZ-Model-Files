@@ -1,12 +1,12 @@
 [Back to SubRES_NewTechs_Industry.xlsx](README.md)
 
-# Sheet: IND_definitions
+# 'IND_definitions' sheet in SubRES_NewTechs_Industry.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Future technology definitions
 
+#### Table definition: ~FI_Process
 - **Range**: B9:P249
-- **Tags**: ~FI_Process
-- **Columns**: Sets, TechName, *, *, *, *, *, TechDesc, *, Tact, Tcap, Tslvl, PrimaryCG, Vintage
+- **Columns**: 'Sets', 'TechName', '*', '*', '*', '*', '*', 'TechDesc', '*', 'Tact', 'Tcap', 'Tslvl', 'PrimaryCG', 'Vintage'
 

@@ -1,12 +1,16 @@
 [Back to Scen_Individualistic.xlsx](README.md)
 
-# Sheet: ICE_CAR_ban
+# 'ICE_CAR_ban' sheet in Scen_Individualistic.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+ICE car ban
 
+#### Table definition: ~UC_T
+- **Range**: G18:R21
+- **Columns**: 'UC_N', 'Pset_Set', 'Pset_PN', 'Year', 'LimType', 'UC_NCAP\~2045', 'UC_NCAP\~2050', 'UC_NCAP\~2060', 'UC_RHST', 'UC_RHST\~0', 'UC_Desc'
+
+#### Table definition: ~UC_T
 - **Range**: G24:S27
-- **Tags**: ~UC_T
-- **Columns**: UC_N, Pset_Set, Pset_PN, Year, LimType, UC_NCAP~2045, UC_NCAP~2050, UC_NCAP~2055, UC_NCAP~2060, UC_RHST, UC_RHST~0, UC_Desc
+- **Columns**: 'UC_N', 'Pset_Set', 'Pset_PN', 'Year', 'LimType', 'UC_NCAP\~2045', 'UC_NCAP\~2050', 'UC_NCAP\~2055', 'UC_NCAP\~2060', 'UC_RHST', 'UC_RHST\~0', 'UC_Desc'
 

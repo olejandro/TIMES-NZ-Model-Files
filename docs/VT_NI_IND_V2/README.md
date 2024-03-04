@@ -2,11 +2,9 @@
 
 [Back to Index](../README.md)
 
-# VT_NI_IND_V2.xlsx
-
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+North Island Industrial Sector
 
 - [Demand](Demand.md) - Overview of the 'Demand' sheet.
 - [Emi](Emi.md) - Overview of the 'Emi' sheet.

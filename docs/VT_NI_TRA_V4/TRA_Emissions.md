@@ -1,12 +1,12 @@
 [Back to VT_NI_TRA_V4.xlsx](README.md)
 
-# Sheet: TRA_Emissions
+# 'TRA_Emissions' sheet in VT_NI_TRA_V4.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Transport sector emissions values
 
+#### Table definition: ~COMEMI
 - **Range**: B4:I7
-- **Tags**: ~COMEMI
-- **Columns**: CommName, TRANGA, TRALPG, TRAPET, TRADSL, TRAJET, TRAFOL
+- **Columns**: 'CommName', 'TRANGA', 'TRALPG', 'TRAPET', 'TRADSL', 'TRAJET', 'TRAFOL'
 

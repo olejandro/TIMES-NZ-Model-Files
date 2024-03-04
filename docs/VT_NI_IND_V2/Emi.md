@@ -1,12 +1,12 @@
 [Back to VT_NI_IND_V2.xlsx](README.md)
 
-# Sheet: Emi
+# 'Emi' sheet in VT_NI_IND_V2.xlsx
 
-#### Sheet Overview
+## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Industrial fuel emissions
 
+#### Table definition: ~COMEMI
 - **Range**: B4:K7
-- **Tags**: ~COMEMI
-- **Columns**: CommName, INDCOA, INDPET, INDDSL, INDLPG, INDFOL, INDNGA, INDGEO, INDWOD
+- **Columns**: 'CommName', 'INDCOA', 'INDPET', 'INDDSL', 'INDLPG', 'INDFOL', 'INDNGA', 'INDGEO', 'INDWOD'
 

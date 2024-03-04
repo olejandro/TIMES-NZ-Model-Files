@@ -2,11 +2,9 @@
 
 [Back to Index](../../README.md)
 
-# Scen_Base_constraints.xlsx
-
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Misc Base constraints for the model
 
 - [CCS+h2](CCS+h2.md) - Overview of the 'CCS+h2' sheet.
 - [CH_RH](CH_RH.md) - Overview of the 'CH_RH' sheet.
