@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-Electric truck supply constraint
+(TODO: Overview of the sheet. Units used, sources of data, etc.)
 
 #### Table definition: ~UC_T
 - **Range**: C17:Q19

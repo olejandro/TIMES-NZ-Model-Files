@@ -6,4 +6,4 @@
 
 Transport sector future technologies in the Kea scenario
 
-- [TRA_NEW](TRA_NEW.md) - Overview of the 'TRA_NEW' sheet.
+- [TRA_NEW](TRA_NEW.md) - Technology parameters and definitions

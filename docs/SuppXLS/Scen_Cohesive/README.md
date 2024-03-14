@@ -6,17 +6,17 @@
 
 Kea Scenario parameters
 
-- [BEV_PHEV-share](BEV_PHEV-share.md) - Overview of the 'BEV_PHEV-share' sheet.
-- [Costs_techs](Costs_techs.md) - Overview of the 'Costs_techs' sheet.
-- [Dem](Dem.md) - Overview of the 'Dem' sheet.
-- [Dem_AGR](Dem_AGR.md) - Overview of the 'Dem_AGR' sheet.
-- [Dem_COM](Dem_COM.md) - Overview of the 'Dem_COM' sheet.
-- [Dem_IND](Dem_IND.md) - Overview of the 'Dem_IND' sheet.
-- [Dem_RES](Dem_RES.md) - Overview of the 'Dem_RES' sheet.
-- [Gas_price](Gas_price.md) - Overview of the 'Gas_price' sheet.
-- [H2_costs](H2_costs.md) - Overview of the 'H2_costs' sheet.
-- [Load_Curves](Load_Curves.md) - Overview of the 'Load_Curves' sheet.
-- [Ref_Close](Ref_Close.md) - Overview of the 'Ref_Close' sheet.
-- [Solar](Solar.md) - Overview of the 'Solar' sheet.
-- [TRA_costs_and_ban](TRA_costs_and_ban.md) - Overview of the 'TRA_costs_and_ban' sheet.
-- [Trucks](Trucks.md) - Overview of the 'Trucks' sheet.
+- [BEV_PHEV-share](BEV_PHEV-share.md) - BEV and PHEV supply constraints
+- [Costs_techs](Costs_techs.md) - Carbon price, discount rates, coal prices
+- [Dem](Dem.md) - Transport demand projections
+- [Dem_AGR](Dem_AGR.md) - Agriculture demand projections
+- [Dem_COM](Dem_COM.md) - Commercial demand projections
+- [Dem_IND](Dem_IND.md) - Industrial demand projections
+- [Dem_RES](Dem_RES.md) - Residential demand projections
+- [Gas_price](Gas_price.md) - Natural gas price
+- [H2_costs](H2_costs.md) - Hydrogen electrolyser costs
+- [Load_Curves](Load_Curves.md) - Transport vehicle charging load curves
+- [Ref_Close](Ref_Close.md) - Refinery shutdown
+- [Solar](Solar.md) - Solar maximum uptake constraints
+- [TRA_costs_and_ban](TRA_costs_and_ban.md) - ICE car ban, maximum biodiesel blend ratio constriant
+- [Trucks](Trucks.md) - Minimum ICE truck use constraint

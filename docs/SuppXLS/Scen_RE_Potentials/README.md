@@ -6,7 +6,7 @@
 
 Sets upper bounds for Renewable electricty uptake by technology
 
-- [Geo](Geo.md) - Overview of the 'Geo' sheet.
-- [Hydro](Hydro.md) - Overview of the 'Hydro' sheet.
-- [TID](TID.md) - Overview of the 'TID' sheet.
-- [Wind](Wind.md) - Overview of the 'Wind' sheet.
+- [Geo](Geo.md) - Geothermal uptake constraints
+- [Hydro](Hydro.md) - Hydro uptake constraints
+- [TID](TID.md) - Tidal uptake constraints
+- [Wind](Wind.md) - Wind uptake constraints

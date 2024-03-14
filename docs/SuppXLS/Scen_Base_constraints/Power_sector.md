@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-Wind generation maximum, thermal generation minimum
+(TODO: Overview of the sheet. Units used, sources of data, etc.)
 
 #### Table definition: ~TFM_UPD
 - **Range**: D15:N18

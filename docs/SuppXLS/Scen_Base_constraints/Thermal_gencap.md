@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-coal and nuclear ban
+(TODO: Overview of the sheet. Units used, sources of data, etc.)
 
 #### Table definition: ~UC_T
 - **Range**: B13:L15

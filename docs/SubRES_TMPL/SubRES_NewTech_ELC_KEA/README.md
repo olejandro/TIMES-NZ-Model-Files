@@ -6,5 +6,5 @@
 
 Future Technologies for Electricity Sector in the Kea Scenario
 
-- [ELC_CCS](ELC_CCS.md) - Overview of the 'ELC_CCS' sheet.
-- [ELC_newtech_KEA](ELC_newtech_KEA.md) - Overview of the 'ELC_newtech_KEA' sheet.
+- [ELC_CCS](ELC_CCS.md) - CCS technology parameters
+- [ELC_newtech_KEA](ELC_newtech_KEA.md) - Technology definitions and parameters

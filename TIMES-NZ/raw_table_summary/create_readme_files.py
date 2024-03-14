@@ -104,6 +104,25 @@ def read_documentation_from_excel(workbook_path):
     return documentation
 
 
+def extract_summary(documentation):
+    """
+    Extracts the first paragraph from the documentation text as a summary.
+
+    Parameters:
+    - documentation: Full documentation text for a sheet.
+
+    Returns:
+    - A string representing the summary (first paragraph) of the documentation.
+    """
+    # Split the documentation into paragraphs
+    paragraphs = documentation.split('\n\n')
+    # Return the first paragraph as the summary
+    if paragraphs:
+        return paragraphs[0]
+    else:
+        return "No summary available."
+
+
 def prune_directory_tree(expected_structure, actual_base_dir, test_run=False):
     """
     Prune the directory tree to match the expected structure.
@@ -226,7 +245,8 @@ def create_readme_files(parsed_data, base_dir):
                     else "(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)\n\n"
                 for sheet in sheets:
                     sheet_readme_filename = f"{sheet}.md"
-                    workbook_readme_content += f"- [{sheet}]({sheet_readme_filename.replace(' ', '%20')}) - Overview of the '{sheet}' sheet.\n"
+                    sheet_summary = extract_summary(documentation['sheets'].get(sheet, f"Overview of the '{sheet}' sheet."))
+                    workbook_readme_content += f"- [{sheet}]({sheet_readme_filename.replace(' ', '%20')}) - {sheet_summary}\n"
                 print(f'Write workbook documentation {workbook_readme_path}')
                 workbook_readme.write(workbook_readme_content)
         for sheet, info in sheets.items():

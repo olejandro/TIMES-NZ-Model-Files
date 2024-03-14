@@ -6,6 +6,6 @@
 
 North Island Transport Sector
 
-- [TRA_Demand-Vehicles](TRA_Demand-Vehicles.md) - Overview of the 'TRA_Demand-Vehicles' sheet.
-- [TRA_Emissions](TRA_Emissions.md) - Overview of the 'TRA_Emissions' sheet.
+- [TRA_Demand-Vehicles](TRA_Demand-Vehicles.md) - Transport technology process defintions and base year demand
+- [TRA_Emissions](TRA_Emissions.md) - Transport sector emissions values
 - [TRA_FuelSupply](TRA_FuelSupply.md) - Overview of the 'TRA_FuelSupply' sheet.

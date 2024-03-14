@@ -6,5 +6,5 @@
 
 Future Technologies for Electricity Sector in the Tui Scenario
 
-- [ELC_CCS](ELC_CCS.md) - Overview of the 'ELC_CCS' sheet.
+- [ELC_CCS](ELC_CCS.md) - CCS technology parameters
 - [ELC_newtech_TUI](ELC_newtech_TUI.md) - Overview of the 'ELC_newtech_TUI' sheet.
