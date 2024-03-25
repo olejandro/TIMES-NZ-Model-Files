@@ -147,7 +147,11 @@ Any changes that you now commit will be committed to that branch, so you can mod
 
 Now you can start making changes to the code. You can create new files, modify existing ones, and delete what you don't need. Keep your changes focused and related to a single feature or fix.
 
-#### 5. Document Your Changes
+#### 5. Test Your Changes
+
+When changes are trivial, ensure that they haven't affected model behaviour by noting the value of the objective function on model convergence before and after the change.
+
+#### 6. Document Your Changes
 
 Use the Dockerized `times-excel-reader` tool to generate a summary of the model at `TIMES-NZ/raw_table_summary/raw_tables.txt`. This will help reviewers see the changes you've made to the Excel files by viewing the diff of this text file in the pull request.
 
@@ -174,7 +178,7 @@ python create_readme_files.py
 * The `times-excel-reader` tool generates file paths with forward slashes (`/`). If you're working on Windows, the file paths in the `raw_tables.txt` may contain backslashes (`\`). To maintain consistency across environments, we recommend running the tool in a Linux-like environment (e.g., using WSL on Windows) or normalizing file paths using a tool like `sed` before committing your changes.
 
 
-#### 5. Commit Your Changes
+#### 7. Commit Your Changes
 
 After you've made some changes, you need to "commit" them. This takes a snapshot of your changes, which you can then push to GitHub. **Important**: Please take care to ensure that only changes you intend to commit are committed!
 
@@ -188,7 +192,7 @@ git commit -m "Your descriptive commit message"
 ```
 If you have changed the TIMES configuration files, one of the files you commit should be `TIMES-NZ/raw_table_summary/raw_tables.txt`. 
 
-#### 6. Push Your Changes
+#### 8. Push Your Changes
 
 After committing, you need to "push" your changes to GitHub. This makes them available to others.
 
@@ -197,13 +201,13 @@ Command line:
 git push --set-upstream origin <your-branch-name>
 ```
 
-#### 7. Create a Pull Request
+#### 9. Create a Pull Request
 
 Finally, you can ask for your changes to be merged into the main branch by creating a "pull request". 
 
 Go to the repository on GitHub, and click on the "Pull request" button. Select your branch from the dropdown, write a brief description of your changes, and click "Create pull request".
 
-#### 8. Pull latest changes
+#### 10. Pull latest changes
 
 Incorporates changes from a remote repository into the current branch. If the current branch is behind the remote, then by default it will fast-forward the current branch to match the remote. For instance, as before, to ensure you are on the head of the `main` branch:
 Command line:
