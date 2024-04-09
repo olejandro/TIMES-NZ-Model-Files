@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Agriculture, residential, and commercial fuel emissions
 
 #### Table definition: ~COMEMI
 - **Range**: B15:M18

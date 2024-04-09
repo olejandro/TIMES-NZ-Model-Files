@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Residential sector fuel commodity and process definitions
 
 #### Table definition: ~FI_T
 - **Range**: C19:K47

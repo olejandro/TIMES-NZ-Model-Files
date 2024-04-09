@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Bilateral trade links
 
 #### Table definition: ~TradeLinks
 - **Range**: B5:E8

@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Commercial sector process data
 
 #### Table definition: ~FI_T
 - **Range**: C131:E173

@@ -4,8 +4,8 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Mapping and transformation of new process in Industrial sector across regions
 
-- [AF_Trans](AF_Trans.md) - Overview of the 'AF_Trans' sheet.
-- [AVA](AVA.md) - Overview of the 'AVA' sheet.
-- [FILL Table](FILL%20Table.md) - Overview of the 'FILL Table' sheet.
+- [AF_Trans](AF_Trans.md) - Time-slice-specific availability factors for existing energy processes
+- [AVA](AVA.md) - Process availability across regions
+- [FILL Table](FILL%20Table.md) - Model data for transformation operations

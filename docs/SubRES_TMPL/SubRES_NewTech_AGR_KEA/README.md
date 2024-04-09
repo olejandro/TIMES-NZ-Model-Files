@@ -4,6 +4,6 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Agriculture, Forestry and Fishing Future Technologies for Kea Scenario
 
 - [OTH_AGR](OTH_AGR.md) - Technology definitions and parameters

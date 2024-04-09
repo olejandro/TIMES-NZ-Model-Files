@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Time-slice-specific availability factors for existing energy processes
 
 #### Table definition: ~TFM_INS
 - **Range**: B6

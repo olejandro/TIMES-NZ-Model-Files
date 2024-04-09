@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Process availability across regions
 
 #### Table definition: ~TFM_AVA
 - **Range**: B4:F9
