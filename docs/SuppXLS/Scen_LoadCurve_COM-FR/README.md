@@ -4,8 +4,8 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Defines annual electricity demand timeslices or load curve for sectors
 
-- [AGR](AGR.md) - Overview of the 'AGR' sheet.
-- [COM_FR](COM_FR.md) - Overview of the 'COM_FR' sheet.
-- [Comm-COMFR](Comm-COMFR.md) - Overview of the 'Comm-COMFR' sheet.
+- [AGR](AGR.md) - Annual timeslices for Agriculture, Forestry and Fishing Future Technologies
+- [COM_FR](COM_FR.md) - Annual timeslices for all other sectors and sub-sectors
+- [Comm-COMFR](Comm-COMFR.md) - Annual timeslices for Commercial sector

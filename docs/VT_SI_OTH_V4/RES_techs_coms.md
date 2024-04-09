@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Residential sector technology and enduse commodity definitions
 
 #### Table definition: ~FI_Comm
 - **Range**: B7:M42

@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Attribute specifications for the trade processes
 
 #### Table definition: ~TFM_INS
 - **Range**: B36:P47

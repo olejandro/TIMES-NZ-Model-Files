@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Unilateral trade links
 
 #### Table definition: ~TradeLinks
 - **Range**: C14:F17

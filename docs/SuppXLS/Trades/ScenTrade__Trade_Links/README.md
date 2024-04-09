@@ -4,7 +4,7 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Defines all unilateral and/or bilateral trade links between regions
 
-- [Bi](Bi.md) - Overview of the 'Bi' sheet.
-- [Uni](Uni.md) - Overview of the 'Uni' sheet.
+- [Bi](Bi.md) - Bilateral trade links
+- [Uni](Uni.md) - Unilateral trade links

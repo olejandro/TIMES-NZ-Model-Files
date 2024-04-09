@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Commercial sector technology and enduse commodity definitions
 
 #### Table definition: ~FI_Comm
 - **Range**: A6:L58

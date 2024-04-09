@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Model data for transformation operations
 
 #### Table definition: ~TFM_FILL
 - **Range**: B3

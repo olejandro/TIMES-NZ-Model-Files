@@ -4,15 +4,15 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+North Island Other Sector Base Year
 
-- [AGR](AGR.md) - Overview of the 'AGR' sheet.
-- [AGR_fuels](AGR_fuels.md) - Overview of the 'AGR_fuels' sheet.
-- [COM](COM.md) - Overview of the 'COM' sheet.
-- [COM_fuels](COM_fuels.md) - Overview of the 'COM_fuels' sheet.
-- [COM_techs](COM_techs.md) - Overview of the 'COM_techs' sheet.
-- [Emi](Emi.md) - Overview of the 'Emi' sheet.
-- [PROC_COM_AGR](PROC_COM_AGR.md) - Overview of the 'PROC_COM_AGR' sheet.
-- [RES](RES.md) - Overview of the 'RES' sheet.
-- [RES_fuel_dem](RES_fuel_dem.md) - Overview of the 'RES_fuel_dem' sheet.
-- [RES_techs_coms](RES_techs_coms.md) - Overview of the 'RES_techs_coms' sheet.
+- [AGR](AGR.md) - Agriculture process data
+- [AGR_fuels](AGR_fuels.md) - Agriculture sector fuel commodity and process definitions
+- [COM](COM.md) - Commercial sector process data
+- [COM_fuels](COM_fuels.md) - Commercial sector fuel commodity and process definitions
+- [COM_techs](COM_techs.md) - Commercial sector technology and enduse commodity definitions
+- [Emi](Emi.md) - Agriculture, residential, and commercial fuel emissions
+- [PROC_COM_AGR](PROC_COM_AGR.md) - Agriculture sector technology and enduse commodity definitions
+- [RES](RES.md) - Agriculture process data
+- [RES_fuel_dem](RES_fuel_dem.md) - Residential sector fuel commodity and process definitions
+- [RES_techs_coms](RES_techs_coms.md) - Residential sector technology and enduse commodity definitions

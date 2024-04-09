@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Agriculture sector technology and enduse commodity definitions
 
 #### Table definition: ~FI_Comm
 - **Range**: B5:N43

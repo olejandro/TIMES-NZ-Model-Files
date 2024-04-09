@@ -4,6 +4,6 @@
 
 ## Workbook Overview
 
-(TODO: Add a high-level overview of how this workbook fits into the TIMES-NZ model.)
+Defines all of the attribute specifications for the trade processes
 
-- [INS](INS.md) - Overview of the 'INS' sheet.
+- [INS](INS.md) - Attribute specifications for the trade processes

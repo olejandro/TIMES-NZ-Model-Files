@@ -4,7 +4,7 @@
 
 ## Sheet Overview
 
-(TODO: Overview of the sheet. Units used, sources of data, etc.)
+Annual timeslices for all other sectors and sub-sectors
 
 #### Table definition: ~TFM_INS
 - **Range**: M4:T557
