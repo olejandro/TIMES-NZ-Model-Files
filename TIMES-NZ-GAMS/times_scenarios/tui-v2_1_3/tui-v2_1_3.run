@@ -85,7 +85,7 @@ $BATINCLUDE af_renewable.dd
 $BATINCLUDE wem_wcm.dd
 $BATINCLUDE individualistic.dd
 
-SET MILESTONYR /2018,2020,2025,2030,2035,2040,2045,2050,2055,2060/;
+SBATINCLUDE milestonyr.dd
 $SET RUN_NAME 'tui-v2_1_3'
 
 
