@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
 
 jobs:
@@ -10,20 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         path: head
 
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.12
 
-    - name: Clone and Install xl2times
+    - name: Install xl2times
       run: |
-        git clone https://github.com/etsap-TIMES/xl2times.git
-        cd xl2times
-        pip install .
+        pip install -U pip
+        pip install xl2times==0.1.0
 
     - name: Run raw_table_summary on TIMES-NZ-Model-Files
       run: |
