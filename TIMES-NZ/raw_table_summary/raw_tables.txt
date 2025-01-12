@@ -1,3 +1,27 @@
+sheetname: BY_Trans
+range: B6:Q7
+filename: BY_Trans.xlsx
+tag: ~TFM_INS
+types: TimeSlice (object), LimType (object), Attribute (object), Year (object), AllRegions (object), REG1 (object), REG2 (object), Pset_Set (object), Pset_PN (object), Pset_PD (object), Pset_CI (object), Pset_CO (object), Cset_Set (object), Cset_CN (object), Cset_CD (object)
+TimeSlice,LimType,Attribute,Year,AllRegions,REG1,REG2,Pset_Set,Pset_PN,Pset_PD,Pset_CI,Pset_CO,Cset_Set,Cset_CN,Cset_CD
+
+
+sheetname: FILL Table
+range: B3:O4
+filename: BY_Trans.xlsx
+tag: ~TFM_FILL
+types: Operation_Sum_Avg_Count (object), Scenario Name (object), TimeSlice (object), LimType (object), Attribute (object), Year (object), Other_Indexes (object), Tech_Comm_Info (object), AllRegions (object), REG1 (object), REG2 (object), Pset_Set (object), Pset_PN (object)
+Operation_Sum_Avg_Count,Scenario Name,TimeSlice,LimType,Attribute,Year,Other_Indexes,Tech_Comm_Info,AllRegions,REG1,REG2,Pset_Set,Pset_PN
+
+
+sheetname: NCAP_BND
+range: B6:Q7
+filename: BY_Trans.xlsx
+tag: ~TFM_INS
+types: TimeSlice (object), LimType (object), Attribute (object), Year (object), AllRegions (object), REG1 (object), REG2 (object), Pset_Set (object), Pset_PN (object), Pset_PD (object), Pset_CI (object), Pset_CO (object), Cset_Set (object), Cset_CN (object), Cset_CD (object)
+TimeSlice,LimType,Attribute,Year,AllRegions,REG1,REG2,Pset_Set,Pset_PN,Pset_PD,Pset_CI,Pset_CO,Cset_Set,Cset_CN,Cset_CD
+
+
 sheetname: OTH_AGR
 range: B4:AB77
 filename: SubRES_TMPL/SubRES_NewTech_AGR_KEA.xlsx
@@ -3088,6 +3112,21 @@ UC_N,Pset_Set,Pset_PN,Year,LimType,UC_CAP,UC_RHSRT~NI,UC_RHSRT~SI,UC_RHSRT~0,UC_
 COAL_PP_BND,ELE,"EH*CO*,-*ccs*",2025,UP,1,0,0,3,New coal power plants ban
 NGA_PP_BND,ELE,"ENGA*,-*CCS*",2025,UP,1,2,0,4,New gas power plants bound (new 2 GW allowed until 2025)
 NUC_BAN,,E*NUC*,2025,UP,1,0,0,3,Nuclear plants ban (not allowed for whole time horizon)
+
+
+sheetname: Carbon budget
+range: C5:N12
+filename: SuppXLS/Scen_Carbon_Budgets.xlsx
+uc_sets: {'R_S': 'AllRegions', 'T_S': ''}
+tag: ~UC_T
+types: UC_N (object), Pset: PN (object), PSet: CI (object), Cset: CN (object), PSet: CO (object), Year (object), LimType (object), UC_COMNET (object), UC_RHSTS (object), UC_RHSTS~0 (object), UC_Desc (object)
+UC_N,Pset: PN,PSet: CI,Cset: CN,PSet: CO,Year,LimType,UC_COMNET,UC_RHSTS,UC_RHSTS~0,UC_Desc
+UC_TOTCO2CAP,,,TOTCO2,,2025,UP,1,29443.6,5,CCC Climate Budgets
+,,,TOTCO2,,2030,UP,1,24951.46,,
+,,,TOTCO2,,2035,UP,1,18884.91,,
+,,,TOTCO2,,2040,UP,1,12911.14,,
+,,,TOTCO2,,2045,UP,1,8366.587,,
+,,,TOTCO2,,2050,UP,1,5276.346,,
 
 
 sheetname: BEV_PHEV-share
@@ -6340,8 +6379,8 @@ sheetname: Existing_techs_NI
 range: A33:AF55
 filename: VT_NI_ELC_V4.xlsx
 tag: ~FI_T
-types: TechName (object), *LimType (object), Comm-IN (object), Comm-OUT (object), PASTI~1970 (object), PASTI~2000 (object), PASTI~2005 (object), PASTI~2015 (object), NCAP_PASTI~2018 (object), *RESID~2018 (object), *RESID~2016 (object), *RESID~2035 (object), *Share-I (object), Share-I~2018 (object), Share-I~0 (object), EFF~2018 (object), *AFA (object), AFA~2018 (object), *ACT_BND~2015 (object), ACT_BND~2018 (object), ACT_BND~FX~2018 (object), ACT_BND~0 (object), FIXOM (object), VAROM (object), LIFE (object), CAP2ACT (object), Peak (object), NCAP_BND (object), NCAP_BND~2021 (object), NCAP_BND~0 (object), ENV_ACT~ELCCO2 (object)
-TechName,*LimType,Comm-IN,Comm-OUT,PASTI~1970,PASTI~2000,PASTI~2005,PASTI~2015,NCAP_PASTI~2018,*RESID~2018,*RESID~2016,*RESID~2035,*Share-I,Share-I~2018,Share-I~0,EFF~2018,*AFA,AFA~2018,*ACT_BND~2015,ACT_BND~2018,ACT_BND~FX~2018,ACT_BND~0,FIXOM,VAROM,LIFE,CAP2ACT,Peak,NCAP_BND,NCAP_BND~2021,NCAP_BND~0,ENV_ACT~ELCCO2
+types: TechName (object), LimType (object), Comm-IN (object), Comm-OUT (object), PASTI~1970 (object), PASTI~2000 (object), PASTI~2005 (object), PASTI~2015 (object), NCAP_PASTI~2018 (object), *RESID~2018 (object), *RESID~2016 (object), *RESID~2035 (object), *Share-I (object), Share-I~2018 (object), Share-I~0 (object), EFF~2018 (object), *AFA (object), AFA~2018 (object), *ACT_BND~2015 (object), ACT_BND~2018 (object), ACT_BND~FX~2018 (object), ACT_BND~0 (object), FIXOM (object), VAROM (object), LIFE (object), CAP2ACT (object), Peak (object), NCAP_BND (object), NCAP_BND~2021 (object), NCAP_BND~0 (object), ENV_ACT~ELCCO2 (object)
+TechName,LimType,Comm-IN,Comm-OUT,PASTI~1970,PASTI~2000,PASTI~2005,PASTI~2015,NCAP_PASTI~2018,*RESID~2018,*RESID~2016,*RESID~2035,*Share-I,Share-I~2018,Share-I~0,EFF~2018,*AFA,AFA~2018,*ACT_BND~2015,ACT_BND~2018,ACT_BND~FX~2018,ACT_BND~0,FIXOM,VAROM,LIFE,CAP2ACT,Peak,NCAP_BND,NCAP_BND~2021,NCAP_BND~0,ENV_ACT~ELCCO2
 *Technology Name,,Input Commodity,Output Commodity,Past Investment Capacity,Past Investment Capacity,Past Investment Capacity,Past Investment Capacity,Past Investment Capacity,Existing Installed Capacity,Existing Installed Capacity,Retirement Capacity,Fuel input coef,Fuel input coef,Fuel input coef,Efficiency,Utilisation Factor,Utilisation Factor,"Generation, stat","Generation, stat",,Interpolation/extrapolation for future years,Fixed O&M Cost,Variable O&M Cost,Lifetime,Capacity to Activity Factor,% contribution to PEAK,,,,
 *Units,,,,GW,GW,GW,GW,GW,GW,,GW,%,%,%,%,%,%,PJ,PJ,,´-1 no extrapolation,Milion NZD (2015)/GW,Milion NZD (2015)/PJ,Years,PJ/GW,,,,,
 ELCREHYDRRInflex00,,ELCHYD,ELC,0.2064,,,,,0.2064,0,,,,,1,,,2.41765619798025,3.38284695214823,,1,6.54,0.244444444444444,100,31.536,0.722,0,0,5,
@@ -6352,7 +6391,7 @@ ELCTENGACHP00,,ELCNGA,ELC,0.064,0.2906,,,,0.3546,0,,0.760507631196738,0.74660574
 \I:,,ELCGEO,,,,,,,,,,0,0,5,,,,,,,,,,,,,,,,
 \I:,,ELCBIG,,,,,,,,,,0,0,5,,,,,,,,,,,,,,,,
 ELCTECOA00,,ELCCOA,ELC,,0.5,,,,0.5,0,,,,,0.331683659882697,0.428082191780822,0.371004566210046,6.75,,,1,72,2.77777777777778,30,31.536,0.97,0,0,5,
-\I:,LO,ELCCOA,ELC,,,,,,,,,,,,,,,,5.325,,,,,,,,,,,
+ELCTECOA00,LO,ELCCOA,ELC,,,,,,,,,,,,,,,,5.325,,,,,,,,,,,
 ELCTENGACCGT00,,ELCNGA,ELC,,0.385,0.403,,,0.788,0,,,,,0.51,0.648043294998387,0.648043294998387,16.1041143606425,,,,36,1.11111111111111,25,31.536,0.97,0,0,5,
 \I:,LO,ELCNGA,ELC,,,,,,,,,,,,,,,,13.6116182686435,,,,,,,,,,,
 ELCTENGAOCGT00,,ELCNGA,ELC,,,0.051,0.302,,0.353,0,,,,,0.400920711381386,0.340982277671917,0.340982277671917,3.79588563935753,,,1,25.2,1.11111111111111,25,31.536,0.97,0,0,5,
@@ -7755,7 +7794,7 @@ types: Sets (object), Region (object), TechName (object), * Sector (object), * S
 Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
-PRE,,REFEOIL00,Primary Fuel Supply,Refinery,Oil production,,Primary Fuel Supply -:- Refinery -:- Oil production -:- ,,PJ,PJa,,NRGI,
+PRE,,REFEOIL00,Primary Fuel Supply,Refinery,Oil production,Crude Oil,Primary Fuel Supply -:- Refinery -:- Oil production -:- Crude Oil,,PJ,PJa,,NRGI,
 
 
 sheetname: Pri_BIO
@@ -7784,9 +7823,9 @@ PRE,,SUP_BIGNGA,Primary Fuel Supply,Biomass/Biofuels,,Biogas to natural gas,Prim
 PRE,,CT_CWODPLT,Primary Fuel Supply,Biomass/Biofuels,,Production of wood pellets from wood waste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of wood pellets from wood waste,Production of wood pellets from wood waste,PJ,GWth,,,
 \I:,,CT_CWODBDS,Primary Fuel Supply,Biomass/Biofuels,,Production of biodiesel from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of biodiesel from woodwaste,Production of biodiesel from woodwaste,PJ,GWth,,,
 PRE,,CT_CWODETH,Primary Fuel Supply,Biomass/Biofuels,,Production of bioliquids (ethanol) from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of bioliquids (ethanol) from woodwaste,Production of bioliquids (ethanol) from woodwaste,PJ,GWth,,,
-PRE,,CT_COILBDS,Primary Fuel Supply,Biomass/Biofuels,,Production of biodiesel from waste oiles,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of biodiesel from waste oiles,Production of biodiesel from waste oiles,PJ,GWth,,,
-PRE,,CT_CWODDID,Primary Fuel Supply,Biomass/Biofuels,,Production of drop-in fuels from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of drop-in fuels from woodwaste,Production of drop-in fuels from woodwaste,PJ,GWth,,,
-PRE,,WSTWOD2WOD,Primary Fuel Supply,Biomass/Biofuels,,Waste wood to fuel wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Waste wood to fuel wood,Waste wood to fuel wood,PJ,PJa,,,
+PRE,,CT_COILBDS,Primary Fuel Supply,Biomass/Biofuels,,Waste Oil,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Waste Oil,Production of biodiesel from waste oils,PJ,GWth,,,
+PRE,,CT_CWODDID,Primary Fuel Supply,Biomass/Biofuels,,Wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Wood,Production of drop-in fuels from woodwaste,PJ,GWth,,,
+PRE,,WSTWOD2WOD,Primary Fuel Supply,Biomass/Biofuels,,Wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Wood,Waste wood to fuel wood,PJ,PJa,,,
 MIN,,MINWODSUPOSWOD,Primary Fuel Supply,Biomass/Biofuels,,On-Site wood supply,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- On-Site wood supply,On-Site wood supply,PJ,PJa,,,
 MIN,,MINWODWST02,Primary Fuel Supply,Biomass/Biofuels,,Residual woody biomass tranche 2,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Residual woody biomass tranche 2,Purpose Grown Forests,PJ,PJa,,,
 
@@ -7819,14 +7858,14 @@ tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Fuel (object), * Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
 Csets,Region,CommName,* Fuel,* Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
 *Commodity Set Membership,Region Name,Commodity Name,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-NRG,,WODWST,Forest residues and woody wastes,,Forest residues and woody wastes -:- ,Forest residues and woody wastes,PJ,FX,,,
+NRG,,WODWST,Wood,,Wood -:- ,Forest residues and woody wastes,PJ,FX,,,
 ,,AGRWST,"Agricultural wastes (straws, stover, vegetable culls)",,"Agricultural wastes (straws, stover, vegetable culls) -:- ","Agricultural wastes (straws, stover, vegetable culls)",PJ,FX,,,
-,,MNCWST,Municipal solid waste,,Municipal solid waste -:- ,Municipal solid waste,PJ,FX,,,
+,,MNCWST,Waste Incineration,,Waste Incineration -:- ,Municipal solid waste,PJ,FX,,,
 ,,ANMMNR,Animal manure,,Animal manure -:- ,Animal manure,PJ,FX,,,
 ,,OILWST,Oil wastes,,Oil wastes -:- ,Oil wastes,PJ,FX,,,
-,,PLT,Wood pellet,,Wood pellet -:- ,Wood pellet,PJ,FX,,,
+,,PLT,Wood,,Wood -:- ,Wood pellet,PJ,FX,,,
 ,,BDSL,Biodiesel,,Biodiesel -:- ,Biodiesel,PJ,FX,,,
-,,WOD,Biomass - wood,,Biomass - wood -:- ,Biomass - wood,PJ,FX,,,
+,,WOD,Wood,,Wood -:- ,Biomass - wood,PJ,FX,,,
 ,,DID,Drop-In Diesel,,Drop-In Diesel -:- ,Drop-in diesel,PJ,FX,,,
 ,,DIJ,Drop-In Jet,,Drop-In Jet -:- ,Drop-in jet,PJ,FX,,,
 ,,INDOSWOD,Wood,,Wood -:- ,On Site Wood,PJ,FX,,,
@@ -7907,14 +7946,14 @@ types: Sets (object), Region (object), TechName (object), * Sector (object), * S
 Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
-MIN,,MINNGA1,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 1,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 1 -:- ,Gas production - step 1,PJ,PJa,,,
-MIN,,MINNGA2,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 2,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 2 -:- ,Gas production - step 2,PJ,PJa,,,
-MIN,,MINNGA3,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 3,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 3 -:- ,Gas production - step 3,PJ,PJa,,,
-MIN,,MINNGA4,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 4,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 4 -:- ,Gas production - step 4,PJ,PJa,,,
-IMP,,IMPLNG1,Primary Fuel Supply,Natural Gas,Import - LNG,,Primary Fuel Supply -:- Natural Gas -:- Import - LNG -:- ,,PJ,PJa,,,
-EXP,,EXPNGA1,Primary Fuel Supply,Natural Gas,Export - Natural Gas,,Primary Fuel Supply -:- Natural Gas -:- Export - Natural Gas -:- ,,PJ,PJa,,,
-EXP,,Non_NRG_OTH,Primary Fuel Supply,Natural Gas,Non Energy Use of Natural Gas,,Primary Fuel Supply -:- Natural Gas -:- Non Energy Use of Natural Gas -:- ,,PJ,PJa,,,
-PRE,,LNGport2021,Primary Fuel Supply,Natural Gas,LNG Port,,Primary Fuel Supply -:- Natural Gas -:- LNG Port -:- ,LNG port for natural gas imports,PJ,PJa,,,
+MIN,,MINNGA1,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 1,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 1 -:- Natural Gas,Gas production - step 1,PJ,PJa,,,
+MIN,,MINNGA2,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 2,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 2 -:- Natural Gas,Gas production - step 2,PJ,PJa,,,
+MIN,,MINNGA3,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 3,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 3 -:- Natural Gas,Gas production - step 3,PJ,PJa,,,
+MIN,,MINNGA4,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 4,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 4 -:- Natural Gas,Gas production - step 4,PJ,PJa,,,
+IMP,,IMPLNG1,Primary Fuel Supply,Natural Gas,Import - LNG,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Import - LNG -:- Natural Gas,,PJ,PJa,,,
+EXP,,EXPNGA1,Primary Fuel Supply,Natural Gas,Export - Natural Gas,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Export - Natural Gas -:- Natural Gas,,PJ,PJa,,,
+EXP,,Non_NRG_OTH,Primary Fuel Supply,Natural Gas,Non Energy Use of Natural Gas,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Non Energy Use of Natural Gas -:- Natural Gas,,PJ,PJa,,,
+PRE,,LNGport2021,Primary Fuel Supply,Natural Gas,LNG Port,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- LNG Port -:- Natural Gas,LNG port for natural gas imports,PJ,PJa,,,
 
 
 sheetname: Pri_GAS
@@ -7978,8 +8017,8 @@ IMP,,IMPOIL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -
 ,,IMPFOL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,IMPJET1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,IMPOTH1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
-,,IMPDID,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
-,,IMPDIJ,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
+,,IMPDID,Primary Fuel Supply,Petroleum,,Waste Oil,Primary Fuel Supply -:- Petroleum -:-  -:- Waste Oil,,PJ,PJa,,,
+,,IMPDIJ,Primary Fuel Supply,Petroleum,,Waste Oil,Primary Fuel Supply -:- Petroleum -:-  -:- Waste Oil,,PJ,PJa,,,
 EXP,,EXPOIL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,EXPLPG1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,EXPPET1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
@@ -7996,11 +8035,11 @@ tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Fuel (object), * Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
 Csets,Region,CommName,* Fuel,* Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
 *Commodity Set Membership,Region Name,Commodity Name,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-NRG,,OILD,Crude Oil ,,Crude Oil  -:- ,Oil products - Crude oil (domestic - for export),PJ,,,,
-,,OILI,Crude Oil (domestic),,Crude Oil (domestic) -:- ,Oil products - Crude oil imported (for refinery),PJ,,,,
-,,LPG,Crude Oil (imported),,Crude Oil (imported) -:- ,Oil products - LPG,PJ,,,,
-,,PET,LPG,,LPG -:- ,Oil products - Petroleum,PJ,,,,
-,,DSL,Petrol,,Petrol -:- ,Oil products - Diesel oil,PJ,,,,
+NRG,,OILD,Crude Oil (domestic),,Crude Oil (domestic) -:- ,Oil products - Crude oil (domestic - for export),PJ,,,,
+,,OILI,Crude Oil (imported),,Crude Oil (imported) -:- ,Oil products - Crude oil imported (for refinery),PJ,,,,
+,,LPG,LPG,,LPG -:- ,Oil products - LPG,PJ,,,,
+,,PET,Petrol,,Petrol -:- ,Oil products - Petroleum,PJ,,,,
+,,DSL,Diesel,,Diesel -:- ,Oil products - Diesel oil,PJ,,,,
 ,,FOL,Fuel Oil,,Fuel Oil -:- ,Oil products - Light fuel oil,PJ,,,,
 ,,JET,Jet Fuel,,Jet Fuel -:- ,Oil products - Jet kerosen,PJ,,,,
 ,,OTH,Other fuels from refinery,,Other fuels from refinery -:- ,Oil products - Other fuels from refinery,PJ,,,,
@@ -8174,28 +8213,28 @@ Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD Tec
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
 PRE,,SUP_ELC-PEMC-H2,Green Hydrogen,Green Hydrogen Production,PEM Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- PEM Electrolyser -:- Electricity,H2 production from PEM electrolysis - centralised,PJ,GW,DAYNITE,,
-PRE,,SUP_ELC-PEMD-H2,Primary Fuel Supply,Hydrogen,H2 production from PEM electrolysis - decentralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from PEM electrolysis - decentralised -:- ,H2 production from PEM electrolysis - decentralised,PJ,GW,DAYNITE,,
-PRE,,\I:SUP_ELC-SOECC-H2,Primary Fuel Supply,Hydrogen,H2 production from SOEC electrolysis - centralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from SOEC electrolysis - centralised -:- ,H2 production from SOEC electrolysis - centralised,PJ,GW,DAYNITE,,
-PRE,,\I:SUP_ELC-SOECD-H2,Primary Fuel Supply,Hydrogen,H2 production from SOEC electrolysis - decentralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from SOEC electrolysis - decentralised -:- ,H2 production from SOEC electrolysis - decentralised,PJ,GW,DAYNITE,,
-PRE,,SUP_H2NGA,Primary Fuel Supply,Hydrogen,H2 methanisation to natural gas (CO2 from DAC),,Primary Fuel Supply -:- Hydrogen -:- H2 methanisation to natural gas (CO2 from DAC) -:- ,H2 methanisation to natural gas (CO2 from DAC),PJ,GW,DAYNITE,,
-PRE,,SUP_H2NGA_CCS,Primary Fuel Supply,Hydrogen,H2 methanisation to natural gas (CO2 from CCS),,Primary Fuel Supply -:- Hydrogen -:- H2 methanisation to natural gas (CO2 from CCS) -:- ,H2 methanisation to natural gas (CO2 from CCS),PJ,GW,DAYNITE,,
-PRE,,\I:SUP_SMRH2,Primary Fuel Supply,Hydrogen,H2 production from natural gas (steam methane reforming with CCS),,Primary Fuel Supply -:- Hydrogen -:- H2 production from natural gas (steam methane reforming with CCS) -:- ,H2 production from natural gas (steam methane reforming with CCS),PJ,GW,DAYNITE,,
-MIN,,MIN_DAC_CO2,Primary Fuel Supply,Hydrogen,Direct air capture costs,,Primary Fuel Supply -:- Hydrogen -:- Direct air capture costs -:- ,Direct air capture costs,kt,kta,,,
-PRE,,FTE_TRAH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to transport sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to transport sector (centralized) -:- ,Hydrogen supply to transport sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_TRAH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to transport sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to transport sector (decentralized) -:- ,Hydrogen supply to transport sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_INDH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to industry sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to industry sector (centralized) -:- ,Hydrogen supply to industry sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_INDH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to industry sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to industry sector (decentralized) -:- ,Hydrogen supply to industry sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_ELCH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to power sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to power sector (centralized) -:- ,Hydrogen supply to power sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_COMH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to commercial sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to commercial sector (centralized) -:- ,Hydrogen supply to commercial sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_COMH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to commercial sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to commercial sector (decentralized) -:- ,Hydrogen supply to commercial sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_RESH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to residential sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to residential sector (centralized) -:- ,Hydrogen supply to residential sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_RESH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to residential sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to residential sector (decentralized) -:- ,Hydrogen supply to residential sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_AGRH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to Agriculture sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to Agriculture sector (centralized) -:- ,Hydrogen supply to agriculture sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_AGRH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to agriculture sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to agriculture sector (decentralized) -:- ,Hydrogen supply to agriculture sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,D-H2_ELCNGA,Primary Fuel Supply,Hydrogen,Natural gas T&D to power & heat sectors,,Primary Fuel Supply -:- Hydrogen -:- Natural gas T&D to power & heat sectors -:- ,Natural gas T&D to power & heat sectors,PJ,GW,DAYNITE,,
-\I:PRE,,D-H2_NPIP,Primary Fuel Supply,Hydrogen,New Pipeline (NI and SI),,Primary Fuel Supply -:- Hydrogen -:- New Pipeline (NI and SI) -:- ,New Pipeline (NI and SI),PJ,GW,DAYNITE,,
-PRE,,D-H2toNGA_blnd,Primary Fuel Supply,Hydrogen,Blending Hydrogen with Natural gas (only NI),,Primary Fuel Supply -:- Hydrogen -:- Blending Hydrogen with Natural gas (only NI) -:- ,Blending Hydrogen with Natural gas (only NI),PJ,GW,DAYNITE,,
-PRE,,D-H2_Trailer,Primary Fuel Supply,Hydrogen,Tube Trailer (NI and SI),,Primary Fuel Supply -:- Hydrogen -:- Tube Trailer (NI and SI) -:- ,Tube Trailer (NI and SI),PJ,Truck,DAYNITE,,
+PRE,,SUP_ELC-PEMD-H2,Green Hydrogen,Green Hydrogen Production,PEM Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- PEM Electrolyser -:- Electricity,H2 production from PEM electrolysis - decentralised,PJ,GW,DAYNITE,,
+PRE,,\I:SUP_ELC-SOECC-H2,Green Hydrogen,Green Hydrogen Production,SOEC Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- SOEC Electrolyser -:- Electricity,H2 production from SOEC electrolysis - centralised,PJ,GW,DAYNITE,,
+PRE,,\I:SUP_ELC-SOECD-H2,Green Hydrogen,Green Hydrogen Production,SOEC Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- SOEC Electrolyser -:- Electricity,H2 production from SOEC electrolysis - decentralised,PJ,GW,DAYNITE,,
+PRE,,SUP_H2NGA,Green Hydrogen,Hydrogen to Synthetic Fuels,DAC ELC to NGA,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- DAC ELC to NGA -:- Electricity,H2 methanisation to natural gas (CO2 from DAC),PJ,GW,DAYNITE,,
+PRE,,SUP_H2NGA_CCS,Green Hydrogen,Hydrogen to Synthetic Fuels,CCS ELC to NGA,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- CCS ELC to NGA -:- Electricity,H2 methanisation to natural gas (CO2 from CCS),PJ,GW,DAYNITE,,
+PRE,,\I:SUP_SMRH2,Primary Fuel Supply,Grey Hydrogen Production with Emission Control,H2 production from natural gas (steam methane reforming with CCS),Electricity,Primary Fuel Supply -:- Grey Hydrogen Production with Emission Control -:- H2 production from natural gas (steam methane reforming with CCS) -:- Electricity,H2 production from natural gas (steam methane reforming with CCS),PJ,GW,DAYNITE,,
+MIN,,MIN_DAC_CO2,Green Hydrogen,Hydrogen to Synthetic Fuels,Direct air capture costs,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- Direct air capture costs -:- Electricity,Direct air capture costs,kt,kta,,,
+DISTR,,FTE_TRAH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to transport sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to transport sector (centralized) -:- ,Hydrogen supply to transport sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_TRAH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to transport sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to transport sector (decentralized) -:- ,Hydrogen supply to transport sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_INDH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to industry sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to industry sector (centralized) -:- ,Hydrogen supply to industry sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_INDH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to industry sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to industry sector (decentralized) -:- ,Hydrogen supply to industry sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_ELCH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to power sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to power sector (centralized) -:- ,Hydrogen supply to power sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_COMH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to commercial sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to commercial sector (centralized) -:- ,Hydrogen supply to commercial sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_COMH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to commercial sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to commercial sector (decentralized) -:- ,Hydrogen supply to commercial sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_RESH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to residential sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to residential sector (centralized) -:- ,Hydrogen supply to residential sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_RESH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to residential sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to residential sector (decentralized) -:- ,Hydrogen supply to residential sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_AGRH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to Agriculture sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to Agriculture sector (centralized) -:- ,Hydrogen supply to agriculture sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_AGRH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to agriculture sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to agriculture sector (decentralized) -:- ,Hydrogen supply to agriculture sector (decentralized),PJ,Pja,DAYNITE,,
+PRE,,D-H2_ELCNGA,Green Hydrogen,Fossil Fuel Infrastructure,Natural gas T&D to power & heat sectors,,Green Hydrogen -:- Fossil Fuel Infrastructure -:- Natural gas T&D to power & heat sectors -:- ,Natural gas T&D to power & heat sectors,PJ,GW,DAYNITE,,
+\I:PRE,,D-H2_NPIP,Green Hydrogen,Hydrogen Storage and Distribution,New Pipeline (NI and SI),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- New Pipeline (NI and SI) -:- ,New Pipeline (NI and SI),PJ,GW,DAYNITE,,
+PRE,,D-H2toNGA_blnd,Green Hydrogen,Hydrogen Utilization in Existing Infrastructure,Hydrogen Enrichment,Natural Gas,Green Hydrogen -:- Hydrogen Utilization in Existing Infrastructure -:- Hydrogen Enrichment -:- Natural Gas,Blending Hydrogen with Natural gas (only NI),PJ,GW,DAYNITE,,
+DISTR,,D-H2_Trailer,Green Hydrogen,Hydrogen Storage and Distribution,Tube Trailer,,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Tube Trailer -:- ,Tube Trailer (NI and SI),PJ,Truck,DAYNITE,,
 
 
 sheetname: TOTCO2
@@ -9957,7 +9996,7 @@ tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Fuel (object), * Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
 Csets,Region,CommName,* Fuel,* Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
 *Commodity Set Membership,Region Name,Commodity Name,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-ENV,,REFCO2,,, -:- ,,,,,,
+ENV,,REFCO2,,, -:- ,,kt,,,,
 
 
 sheetname: Con_REF
@@ -9968,7 +10007,7 @@ types: Sets (object), Region (object), TechName (object), * Sector (object), * S
 Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
-PRE,,REFEOIL00,Primary Fuel Supply,Refinery,Oil production,,Primary Fuel Supply -:- Refinery -:- Oil production -:- ,,PJ,Pja,,NRGI,
+PRE,,REFEOIL00,Primary Fuel Supply,Refinery,Oil production,Crude Oil,Primary Fuel Supply -:- Refinery -:- Oil production -:- Crude Oil,,PJ,Pja,,NRGI,
 
 
 sheetname: Pri_BIO
@@ -9997,9 +10036,9 @@ PRE,,REF_ANMMNR,Primary Fuel Supply,Biomass/Biofuels,,Biogas production refinery
 PRE,,CT_CWODPLT,Primary Fuel Supply,Biomass/Biofuels,,Production of wood pellets from wood waste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of wood pellets from wood waste,Production of wood pellets from wood waste,PJ,GWth,,,
 \I:,,CT_CWODBDS,Primary Fuel Supply,Biomass/Biofuels,,Production of biodiesel from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of biodiesel from woodwaste,Production of biodiesel from woodwaste,PJ,GWth,,,
 PRE,,CT_CWODETH,Primary Fuel Supply,Biomass/Biofuels,,Production of bioliquids (ethanol) from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of bioliquids (ethanol) from woodwaste,Production of bioliquids (ethanol) from woodwaste,PJ,GWth,,,
-PRE,,CT_COILBDS,Primary Fuel Supply,Biomass/Biofuels,,Production of biodiesel from waste oiles,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of biodiesel from waste oiles,Production of biodiesel from waste oiles,PJ,GWth,,,
-PRE,,CT_CWODDID,Primary Fuel Supply,Biomass/Biofuels,,Production of drop-in fuels from woodwaste,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Production of drop-in fuels from woodwaste,Production of drop-in fuels from woodwaste,PJ,GWth,,,
-PRE,,WSTWOD2WOD,Primary Fuel Supply,Biomass/Biofuels,,Waste wood to fuel wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Waste wood to fuel wood,Waste wood to fuel wood,PJ,PJa,,,
+PRE,,CT_COILBDS,Primary Fuel Supply,Biomass/Biofuels,,Waste Oil,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Waste Oil,Production of biodiesel from waste oils,PJ,GWth,,,
+PRE,,CT_CWODDID,Primary Fuel Supply,Biomass/Biofuels,,Wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Wood,Production of drop-in fuels from woodwaste,PJ,GWth,,,
+PRE,,WSTWOD2WOD,Primary Fuel Supply,Biomass/Biofuels,,Wood,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Wood,Waste wood to fuel wood,PJ,PJa,,,
 MIN,,MINWODSUPOSWOD,Primary Fuel Supply,Biomass/Biofuels,,On-Site wood supply,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- On-Site wood supply,On-Site wood supply,PJ,PJa,,,
 MIN,,MINWODWST02,Primary Fuel Supply,Biomass/Biofuels,,Residual woody biomass tranche 2,Primary Fuel Supply -:- Biomass/Biofuels -:-  -:- Residual woody biomass tranche 2,Residual woody biomass tranche 2,PJ,PJa,,,
 
@@ -10032,14 +10071,14 @@ tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Fuel (object), * Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
 Csets,Region,CommName,* Fuel,* Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
 *Commodity Set Membership,Region Name,Commodity Name,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-NRG,,WODWST,Forest residues and woody wastes,,Forest residues and woody wastes -:- ,Forest residues and woody wastes,PJ,FX,,,
+NRG,,WODWST,Wood,,Wood -:- ,Forest residues and woody wastes,PJ,FX,,,
 ,,AGRWST,"Agricultural wastes (straws, stover, vegetable culls)",,"Agricultural wastes (straws, stover, vegetable culls) -:- ","Agricultural wastes (straws, stover, vegetable culls)",PJ,FX,,,
-,,MNCWST,Municipal solid waste,,Municipal solid waste -:- ,Municipal solid waste,PJ,FX,DAYNITE,,
+,,MNCWST,Waste Incineration,,Waste Incineration -:- ,Municipal solid waste,PJ,FX,DAYNITE,,
 ,,ANMMNR,Animal manure,,Animal manure -:- ,Animal manure,PJ,FX,,,
 ,,OILWST,Oil wastes,,Oil wastes -:- ,Oil wastes,PJ,FX,,,
-,,PLT,Wood pellet,,Wood pellet -:- ,Wood pellet,PJ,FX,,,
+,,PLT,Wood,,Wood -:- ,Wood pellet,PJ,FX,,,
 ,,BDSL,Biodiesel,,Biodiesel -:- ,Biodiesel,PJ,FX,,,
-,,WOD,Biomass - wood,,Biomass - wood -:- ,Biomass - wood,PJ,FX,DAYNITE,,
+,,WOD,Wood,,Wood -:- ,Biomass - wood,PJ,FX,DAYNITE,,
 ,,DID,Drop-In Diesel,,Drop-In Diesel -:- ,Drop-in diesel,PJ,FX,,,
 ,,DIJ,Drop-In Jet,,Drop-In Jet -:- ,Drop-in jet,PJ,FX,,,
 ,,INDOSWOD,Wood,,Wood -:- ,On Site Wood,PJ,FX,,,
@@ -10120,15 +10159,15 @@ types: Sets (object), Region (object), TechName (object), * Sector (object), * S
 Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD TechDesc,Tact,Tcap,Tslvl,PrimaryCG,Vintage
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
-MIN,,MINNGA1,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 1,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 1 -:- ,Gas production - step 1,PJ,PJa,,,
-MIN,,MINNGA2,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 2,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 2 -:- ,Gas production - step 2,PJ,PJa,,,
-MIN,,MINNGA3,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 3,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 3 -:- ,Gas production - step 3,PJ,PJa,,,
-MIN,,MINNGA4,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 4,,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 4 -:- ,Gas production - step 4,PJ,PJa,,,
-IMP,,IMPLNG1,Primary Fuel Supply,Natural Gas,Import - LNG,,Primary Fuel Supply -:- Natural Gas -:- Import - LNG -:- ,,PJ,PJa,,,
-EXP,,EXPNGA1,Primary Fuel Supply,Natural Gas,Export - Natural Gas,,Primary Fuel Supply -:- Natural Gas -:- Export - Natural Gas -:- ,,PJ,PJa,,,
-EXP,,Non_NRG_OTH,Primary Fuel Supply,Natural Gas,Non Energy Use of Natural Gas,,Primary Fuel Supply -:- Natural Gas -:- Non Energy Use of Natural Gas -:- ,,PJ,PJa,,,
-PRE,,LNGport2021,Primary Fuel Supply,Natural Gas,LNG Port,,Primary Fuel Supply -:- Natural Gas -:- LNG Port -:- ,LNG port for natural gas imports,PJ,PJa,,,
-IMP,,IMPNGA1,Primary Fuel Supply,Natural Gas,Import - Natural Gas,,Primary Fuel Supply -:- Natural Gas -:- Import - Natural Gas -:- ,,PJ,PJa,,,
+MIN,,MINNGA1,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 1,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 1 -:- Natural Gas,Gas production - step 1,PJ,PJa,,,
+MIN,,MINNGA2,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 2,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 2 -:- Natural Gas,Gas production - step 2,PJ,PJa,,,
+MIN,,MINNGA3,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 3,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 3 -:- Natural Gas,Gas production - step 3,PJ,PJa,,,
+MIN,,MINNGA4,Primary Fuel Supply,Natural Gas,Mining - Natural Gas Tranche 4,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Mining - Natural Gas Tranche 4 -:- Natural Gas,Gas production - step 4,PJ,PJa,,,
+IMP,,IMPLNG1,Primary Fuel Supply,Natural Gas,Import - LNG,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Import - LNG -:- Natural Gas,,PJ,PJa,,,
+EXP,,EXPNGA1,Primary Fuel Supply,Natural Gas,Export - Natural Gas,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Export - Natural Gas -:- Natural Gas,,PJ,PJa,,,
+EXP,,Non_NRG_OTH,Primary Fuel Supply,Natural Gas,Non Energy Use of Natural Gas,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Non Energy Use of Natural Gas -:- Natural Gas,,PJ,PJa,,,
+PRE,,LNGport2021,Primary Fuel Supply,Natural Gas,LNG Port,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- LNG Port -:- Natural Gas,LNG port for natural gas imports,PJ,PJa,,,
+IMP,,IMPNGA1,Primary Fuel Supply,Natural Gas,Import - Natural Gas,Natural Gas,Primary Fuel Supply -:- Natural Gas -:- Import - Natural Gas -:- Natural Gas,,PJ,PJa,,,
 
 
 sheetname: Pri_GAS
@@ -10178,8 +10217,8 @@ IMP,,IMPOIL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -
 ,,IMPFOL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,IMPJET1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,IMPOTH1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
-,,IMPDID,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
-,,IMPDIJ,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
+,,IMPDID,Primary Fuel Supply,Petroleum,,Waste Oil,Primary Fuel Supply -:- Petroleum -:-  -:- Waste Oil,,PJ,PJa,,,
+,,IMPDIJ,Primary Fuel Supply,Petroleum,,Waste Oil,Primary Fuel Supply -:- Petroleum -:-  -:- Waste Oil,,PJ,PJa,,,
 EXP,,EXPOIL1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,EXPLPG1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
 ,,EXPPET1,Primary Fuel Supply,Petroleum,,,Primary Fuel Supply -:- Petroleum -:-  -:- ,,PJ,PJa,,,
@@ -10196,11 +10235,11 @@ tag: ~FI_Comm
 types: Csets (object), Region (object), CommName (object), * Fuel (object), * Enduse (object), CommDesc (object), * OLD CommDesc (object), Unit (object), LimType (object), CTSLvl (object), PeakTS (object), Ctype (object)
 Csets,Region,CommName,* Fuel,* Enduse,CommDesc,* OLD CommDesc,Unit,LimType,CTSLvl,PeakTS,Ctype
 *Commodity Set Membership,Region Name,Commodity Name,,,,Commodity Description,Unit,Sense of the Balance EQN.,Timeslice Level,Peak Monitoring,Electricity Indicator
-NRG,,OILD,Crude Oil ,,Crude Oil  -:- ,Oil products - Crude oil,PJ,,,,
-,,OILI,Crude Oil (domestic),,Crude Oil (domestic) -:- ,Oil products - Crude oil imported (for refinery),PJ,,,,
-,,LPG,Crude Oil (imported),,Crude Oil (imported) -:- ,Oil products - LPG,PJ,,,,
-,,PET,LPG,,LPG -:- ,Oil products - Petroleum,PJ,,,,
-,,DSL,Petrol,,Petrol -:- ,Oil products - Diesel oil,PJ,,,,
+NRG,,OILD,Crude Oil (domestic),,Crude Oil (domestic) -:- ,Oil products - Crude oil,PJ,,,,
+,,OILI,Crude Oil (imported),,Crude Oil (imported) -:- ,Oil products - Crude oil imported (for refinery),PJ,,,,
+,,LPG,LPG,,LPG -:- ,Oil products - LPG,PJ,,,,
+,,PET,Petrol,,Petrol -:- ,Oil products - Petroleum,PJ,,,,
+,,DSL,Diesel,,Diesel -:- ,Oil products - Diesel oil,PJ,,,,
 ,,FOL,Fuel Oil,,Fuel Oil -:- ,Oil products - Light fuel oil,PJ,,,,
 ,,JET,Jet Fuel,,Jet Fuel -:- ,Oil products - Jet kerosen,PJ,,,,
 ,,OTH,Other fuels from refinery,,Other fuels from refinery -:- ,Oil products - Other fuels from refinery,PJ,,,,
@@ -10373,28 +10412,28 @@ Sets,Region,TechName,* Sector,* Subsector,* Technology,* Fuel,TechDesc,* OLD Tec
 *Process Set Membership,Region Name,Technology Name,,,,,,Technology Description,Activity Unit,Capacity Unit,TimeSlice level of Process Activity,Primary Commodity Group,Vintage Tracking
 *,,,,,,,,,,,,,
 PRE,,SUP_ELC-PEMC-H2,Green Hydrogen,Green Hydrogen Production,PEM Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- PEM Electrolyser -:- Electricity,H2 production from PEM electrolysis - centralised,PJ,GW,DAYNITE,,
-PRE,,SUP_ELC-PEMD-H2,Primary Fuel Supply,Hydrogen,H2 production from PEM electrolysis - decentralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from PEM electrolysis - decentralised -:- ,H2 production from PEM electrolysis - decentralised,PJ,GW,DAYNITE,,
-PRE,,\I:SUP_ELC-SOECC-H2,Primary Fuel Supply,Hydrogen,H2 production from SOEC electrolysis - centralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from SOEC electrolysis - centralised -:- ,H2 production from SOEC electrolysis - centralised,PJ,GW,DAYNITE,,
-PRE,,\I:SUP_ELC-SOECD-H2,Primary Fuel Supply,Hydrogen,H2 production from SOEC electrolysis - decentralised,,Primary Fuel Supply -:- Hydrogen -:- H2 production from SOEC electrolysis - decentralised -:- ,H2 production from SOEC electrolysis - decentralised,PJ,GW,DAYNITE,,
-\I:,,\I:SUP_H2NGA,Primary Fuel Supply,Hydrogen,H2 methanisation to natural gas (CO2 from DAC),,Primary Fuel Supply -:- Hydrogen -:- H2 methanisation to natural gas (CO2 from DAC) -:- ,H2 methanisation to natural gas (CO2 from DAC),PJ,GW,DAYNITE,,
-\I:,,\I:SUP_H2NGA_CCS,Primary Fuel Supply,Hydrogen,H2 methanisation to natural gas (CO2 from CCS),,Primary Fuel Supply -:- Hydrogen -:- H2 methanisation to natural gas (CO2 from CCS) -:- ,H2 methanisation to natural gas (CO2 from CCS),PJ,GW,DAYNITE,,
-\I:,,\I:,Primary Fuel Supply,Hydrogen,H2 production from natural gas (steam methane reforming with CCS),,Primary Fuel Supply -:- Hydrogen -:- H2 production from natural gas (steam methane reforming with CCS) -:- ,H2 production from natural gas (steam methane reforming with CCS),PJ,GW,DAYNITE,,
-MIN,,MIN_DAC_CO2,Primary Fuel Supply,Hydrogen,Direct air capture costs,,Primary Fuel Supply -:- Hydrogen -:- Direct air capture costs -:- ,Direct air capture costs,kt,kta,,,
-PRE,,FTE_TRAH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to transport sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to transport sector (centralized) -:- ,Hydrogen supply to transport sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_TRAH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to transport sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to transport sector (decentralized) -:- ,Hydrogen supply to transport sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_INDH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to industry sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to industry sector (centralized) -:- ,Hydrogen supply to industry sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_INDH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to industry sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to industry sector (decentralized) -:- ,Hydrogen supply to industry sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_ELCH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to power sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to power sector (centralized) -:- ,Hydrogen supply to power sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_COMH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to commercial sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to commercial sector (centralized) -:- ,Hydrogen supply to commercial sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_COMH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to commercial sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to commercial sector (decentralized) -:- ,Hydrogen supply to commercial sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_RESH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to residential sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to residential sector (centralized) -:- ,Hydrogen supply to residential sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_RESH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to residential sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to residential sector (decentralized) -:- ,Hydrogen supply to residential sector (decentralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_AGRH2R,Primary Fuel Supply,Hydrogen,Hydrogen supply to Agriculture sector (centralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to Agriculture sector (centralized) -:- ,Hydrogen supply to Agriculture sector (centralized),PJ,Pja,DAYNITE,,
-PRE,,FTE_AGRH2D,Primary Fuel Supply,Hydrogen,Hydrogen supply to agriculture sector (decentralized),,Primary Fuel Supply -:- Hydrogen -:- Hydrogen supply to agriculture sector (decentralized) -:- ,Hydrogen supply to agriculture sector (decentralized),PJ,Pja,DAYNITE,,
-\I:,,D-H2_ELCNGA,Primary Fuel Supply,Hydrogen,Natural gas T&D to power & heat sectors,,Primary Fuel Supply -:- Hydrogen -:- Natural gas T&D to power & heat sectors -:- ,Natural gas T&D to power & heat sectors,PJ,GW,DAYNITE,,
-\I:PRE,,D-H2_NPIP,Primary Fuel Supply,Hydrogen,New Pipeline (NI and SI),,Primary Fuel Supply -:- Hydrogen -:- New Pipeline (NI and SI) -:- ,New Pipeline (NI and SI),PJ,GW,DAYNITE,,
-\I:,,D-H2toNGA_blnd,Primary Fuel Supply,Hydrogen,Blending Hydrogen with Natural gas (only NI),,Primary Fuel Supply -:- Hydrogen -:- Blending Hydrogen with Natural gas (only NI) -:- ,Blending Hydrogen with Natural gas (only NI),PJ,GW,DAYNITE,,
-PRE,,D-H2_Trailer,Primary Fuel Supply,Hydrogen,Tube Trailer (NI and SI),,Primary Fuel Supply -:- Hydrogen -:- Tube Trailer (NI and SI) -:- ,Tube Trailer (NI and SI),PJ,Truck,DAYNITE,,
+PRE,,SUP_ELC-PEMD-H2,Green Hydrogen,Green Hydrogen Production,PEM Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- PEM Electrolyser -:- Electricity,H2 production from PEM electrolysis - decentralised,PJ,GW,DAYNITE,,
+PRE,,\I:SUP_ELC-SOECC-H2,Green Hydrogen,Green Hydrogen Production,SOEC Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- SOEC Electrolyser -:- Electricity,H2 production from SOEC electrolysis - centralised,PJ,GW,DAYNITE,,
+PRE,,\I:SUP_ELC-SOECD-H2,Green Hydrogen,Green Hydrogen Production,SOEC Electrolyser,Electricity,Green Hydrogen -:- Green Hydrogen Production -:- SOEC Electrolyser -:- Electricity,H2 production from SOEC electrolysis - decentralised,PJ,GW,DAYNITE,,
+\I:,,\I:SUP_H2NGA,Green Hydrogen,Hydrogen to Synthetic Fuels,DAC ELC to NGA,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- DAC ELC to NGA -:- Electricity,H2 methanisation to natural gas (CO2 from DAC),PJ,GW,DAYNITE,,
+\I:,,\I:SUP_H2NGA_CCS,Green Hydrogen,Hydrogen to Synthetic Fuels,CCS ELC to NGA,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- CCS ELC to NGA -:- Electricity,H2 methanisation to natural gas (CO2 from CCS),PJ,GW,DAYNITE,,
+\I:,,\I:,Primary Fuel Supply,Grey Hydrogen Production with Emission Control,H2 production from natural gas (steam methane reforming with CCS),Electricity,Primary Fuel Supply -:- Grey Hydrogen Production with Emission Control -:- H2 production from natural gas (steam methane reforming with CCS) -:- Electricity,H2 production from natural gas (steam methane reforming with CCS),PJ,GW,DAYNITE,,
+MIN,,MIN_DAC_CO2,Green Hydrogen,Hydrogen to Synthetic Fuels,Direct air capture costs,Electricity,Green Hydrogen -:- Hydrogen to Synthetic Fuels -:- Direct air capture costs -:- Electricity,Direct air capture costs,kt,kta,,,
+DISTR,,FTE_TRAH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to transport sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to transport sector (centralized) -:- ,Hydrogen supply to transport sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_TRAH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to transport sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to transport sector (decentralized) -:- ,Hydrogen supply to transport sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_INDH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to industry sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to industry sector (centralized) -:- ,Hydrogen supply to industry sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_INDH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to industry sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to industry sector (decentralized) -:- ,Hydrogen supply to industry sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_ELCH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to power sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to power sector (centralized) -:- ,Hydrogen supply to power sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_COMH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to commercial sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to commercial sector (centralized) -:- ,Hydrogen supply to commercial sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_COMH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to commercial sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to commercial sector (decentralized) -:- ,Hydrogen supply to commercial sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_RESH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to residential sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to residential sector (centralized) -:- ,Hydrogen supply to residential sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_RESH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to residential sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to residential sector (decentralized) -:- ,Hydrogen supply to residential sector (decentralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_AGRH2R,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to Agriculture sector (centralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to Agriculture sector (centralized) -:- ,Hydrogen supply to Agriculture sector (centralized),PJ,Pja,DAYNITE,,
+DISTR,,FTE_AGRH2D,Green Hydrogen,Hydrogen Storage and Distribution,Hydrogen supply to agriculture sector (decentralized),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Hydrogen supply to agriculture sector (decentralized) -:- ,Hydrogen supply to agriculture sector (decentralized),PJ,Pja,DAYNITE,,
+\I:,,D-H2_ELCNGA,Green Hydrogen,Fossil Fuel Infrastructure,Natural gas T&D to power & heat sectors,,Green Hydrogen -:- Fossil Fuel Infrastructure -:- Natural gas T&D to power & heat sectors -:- ,Natural gas T&D to power & heat sectors,PJ,GW,DAYNITE,,
+\I:PRE,,D-H2_NPIP,Green Hydrogen,Hydrogen Storage and Distribution,New Pipeline (NI and SI),,Green Hydrogen -:- Hydrogen Storage and Distribution -:- New Pipeline (NI and SI) -:- ,New Pipeline (NI and SI),PJ,GW,DAYNITE,,
+\I:,,D-H2toNGA_blnd,Green Hydrogen,Hydrogen Utilization in Existing Infrastructure,Hydrogen Enrichment,Natural Gas,Green Hydrogen -:- Hydrogen Utilization in Existing Infrastructure -:- Hydrogen Enrichment -:- Natural Gas,Blending Hydrogen with Natural gas (only NI),PJ,GW,DAYNITE,,
+DISTR,,D-H2_Trailer,Green Hydrogen,Hydrogen Storage and Distribution,Tube Trailer,,Green Hydrogen -:- Hydrogen Storage and Distribution -:- Tube Trailer -:- ,Tube Trailer (NI and SI),PJ,Truck,DAYNITE,,
 
 
 sheetname: TOTCO2
